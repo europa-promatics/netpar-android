@@ -1,0 +1,2077 @@
+{
+	"name": "Maharashtra",
+	"hindiName": "महाराष्ट्र",
+	"check": false,
+	"dist": [
+		{
+			"name": "Nandurbar",
+			"hindiName": "नंदुरबार",
+			"check": false,
+			"block": [
+				{
+					"name": "Nandurbar",
+					"hindiName": "नंदुरबार",
+					"check": false
+				},
+				{
+					"name": "Akkalkuwa",
+					"hindiName": "अक्कलकुवा",
+					"check": false
+				},
+				{
+					"name": "Akrani",
+					"hindiName": "अक्राणी",
+					"check": false
+				},
+				{
+					"name": "Talode",
+					"hindiName": "तळोदा",
+					"check": false
+				},
+				{
+					"name": "Shahade",
+					"hindiName": "शहादा",
+					"check": false
+				},
+				{
+					"name": "Nawapur",
+					"hindiName": "नवापूर",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Dhule",
+			"hindiName": "धुळे",
+			"check": false,
+			"block": [
+				{
+					"name": "Dhule",
+					"hindiName": "धुळे",
+					"check": false
+				},
+				{
+					"name": "Shirpur",
+					"hindiName": "शिरपूर",
+					"check": false
+				},
+				{
+					"name": "Sindkhede",
+					"hindiName": "सिंदखेडा",
+					"check": false
+				},
+				{
+					"name": "Sakri",
+					"hindiName": "साक्री",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Jalgaon",
+			"hindiName": "जळगाव",
+			"check": false,
+			"block": [
+				{
+					"name": "Jalgaon",
+					"hindiName": "जळगाव",
+					"check": false
+				},
+				{
+					"name": "Chopda",
+					"hindiName": "चोपडा",
+					"check": false
+				},
+				{
+					"name": "Yawal",
+					"hindiName": "यावल",
+					"check": false
+				},
+				{
+					"name": "Raver",
+					"hindiName": "रावेर",
+					"check": false
+				},
+				{
+					"name": "Muktainagar",
+					"hindiName": "मुक्ताईनगर",
+					"check": false
+				},
+				{
+					"name": "Bodvad",
+					"hindiName": "बोदवड",
+					"check": false
+				},
+				{
+					"name": "Bhusawal",
+					"hindiName": "भुसावळ",
+					"check": false
+				},
+				{
+					"name": "Erandol",
+					"hindiName": "एरंडोल",
+					"check": false
+				},
+				{
+					"name": "Dharangaon",
+					"hindiName": "धरणगाव",
+					"check": false
+				},
+				{
+					"name": "Amalner",
+					"hindiName": "अमळनेर",
+					"check": false
+				},
+				{
+					"name": "Parola",
+					"hindiName": "पारोळा",
+					"check": false
+				},
+				{
+					"name": "Bhadgaon",
+					"hindiName": "भडगाव",
+					"check": false
+				},
+				{
+					"name": "Chalisgaon",
+					"hindiName": "चाळीसगाव",
+					"check": false
+				},
+				{
+					"name": "Pachora",
+					"hindiName": "पाचोरा",
+					"check": false
+				},
+				{
+					"name": "Jamner",
+					"hindiName": "जामनेर",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Buldana",
+			"hindiName": "बुलढाणा",
+			"check": false,
+			"block": [
+				{
+					"name": "Buldana",
+					"hindiName": "बुलढाणा",
+					"check": false
+				},
+				{
+					"name": "Jalgaon (Jamod)",
+					"hindiName": "जळगाव (जामूद )",
+					"check": false
+				},
+				{
+					"name": "Sangrampur",
+					"hindiName": "संग्रामपूर",
+					"check": false
+				},
+				{
+					"name": "Shegaon",
+					"hindiName": "शेगाव",
+					"check": false
+				},
+				{
+					"name": "Nandura",
+					"hindiName": "नांदुरा",
+					"check": false
+				},
+				{
+					"name": "Malkapur",
+					"hindiName": "मलकापूर",
+					"check": false
+				},
+				{
+					"name": "Motala",
+					"hindiName": "मोताळा",
+					"check": false
+				},
+				{
+					"name": "Khamgaon",
+					"hindiName": "खामगाव",
+					"check": false
+				},
+				{
+					"name": "Mehkar",
+					"hindiName": "मेहकर",
+					"check": false
+				},
+				{
+					"name": "Chikhli",
+					"hindiName": "चिखली",
+					"check": false
+				},
+				{
+					"name": "Deolgaon Raja",
+					"hindiName": "देऊळगाव राजा",
+					"check": false
+				},
+				{
+					"name": "Sindkhed Raja",
+					"hindiName": "सिंदखेड राजा",
+					"check": false
+				},
+				{
+					"name": "Lonar",
+					"hindiName": "लोणार",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Akola",
+			"hindiName": "अकोला",
+			"check": false,
+			"block": [
+				{
+					"name": "Akola",
+					"hindiName": "अकोला",
+					"check": false
+				},
+				{
+					"name": "Telhara",
+					"hindiName": "तेल्हारा",
+					"check": false
+				},
+				{
+					"name": "Akot",
+					"hindiName": "अकोट",
+					"check": false
+				},
+				{
+					"name": "Balapur",
+					"hindiName": "बाळापूर",
+					"check": false
+				},
+				{
+					"name": "Murtijapur",
+					"hindiName": "मूर्तिजापूर",
+					"check": false
+				},
+				{
+					"name": "Patur",
+					"hindiName": "पातूर",
+					"check": false
+				},
+				{
+					"name": "Barshitakli",
+					"hindiName": "बार्शी टाकळी",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Washim",
+			"hindiName": "वाशिम",
+			"check": false,
+			"block": [
+				{
+					"name": "Washim",
+					"hindiName": "वाशिम",
+					"check": false
+				},
+				{
+					"name": "Malegaon",
+					"hindiName": "मालेगाव",
+					"check": false
+				},
+				{
+					"name": "Mangrulpir",
+					"hindiName": "मंगरूळपीर",
+					"check": false
+				},
+				{
+					"name": "Karanja",
+					"hindiName": "कारंजा",
+					"check": false
+				},
+				{
+					"name": "Manora",
+					"hindiName": "मनोरा",
+					"check": false
+				},
+				{
+					"name": "Risod",
+					"hindiName": "रिसोड",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Amravati",
+			"hindiName": "अमरावती",
+			"check": false,
+			"block": [
+				{
+					"name": "Amravati",
+					"hindiName": "अमरावती",
+					"check": false
+				},
+				{
+					"name": "Dharni",
+					"hindiName": "धारणी",
+					"check": false
+				},
+				{
+					"name": "Chikhaldara",
+					"hindiName": "चिखलदरा",
+					"check": false
+				},
+				{
+					"name": "Anjangaon Surji",
+					"hindiName": "अंजनगाव सुर्जी",
+					"check": false
+				},
+				{
+					"name": "Achalpur",
+					"hindiName": "अचलपूर",
+					"check": false
+				},
+				{
+					"name": "Chandurbazar",
+					"hindiName": "चांदूर बाजार",
+					"check": false
+				},
+				{
+					"name": "Morshi",
+					"hindiName": "मोर्शी",
+					"check": false
+				},
+				{
+					"name": "Warud",
+					"hindiName": "वरुड",
+					"check": false
+				},
+				{
+					"name": "Teosa",
+					"hindiName": "तिवसा",
+					"check": false
+				},
+				{
+					"name": "Bhatkuli",
+					"hindiName": "भातकुली",
+					"check": false
+				},
+				{
+					"name": "Daryapur",
+					"hindiName": "दर्यापूर",
+					"check": false
+				},
+				{
+					"name": "Nandgaon-Khandeshwar",
+					"hindiName": "नांदगाव-खांडेश्र्वर",
+					"check": false
+				},
+				{
+					"name": "Chandur Railway",
+					"hindiName": "चांदूर रेल्वे",
+					"check": false
+				},
+				{
+					"name": "Dhamangaon Railway",
+					"hindiName": "धामणगाव रेल्वे",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Wardha",
+			"hindiName": "वर्धा",
+			"check": false,
+			"block": [
+				{
+					"name": "Wardha",
+					"hindiName": "वर्धा",
+					"check": false
+				},
+				{
+					"name": "Ashti",
+					"hindiName": "आष्टी",
+					"check": false
+				},
+				{
+					"name": "Karanja",
+					"hindiName": "कारंजा",
+					"check": false
+				},
+				{
+					"name": "Arvi",
+					"hindiName": "आर्वी",
+					"check": false
+				},
+				{
+					"name": "Seloo",
+					"hindiName": "सेलू",
+					"check": false
+				},
+				{
+					"name": "Deoli",
+					"hindiName": "देवळी",
+					"check": false
+				},
+				{
+					"name": "Hinganghat",
+					"hindiName": "हिंगणघाट",
+					"check": false
+				},
+				{
+					"name": "Samudrapur",
+					"hindiName": "समुद्रपूर",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Nagpur",
+			"hindiName": "नागपूर",
+			"check": false,
+			"block": [
+				{
+					"name": "Nagpur",
+					"hindiName": "नागपूर",
+					"check": false
+				},
+				{
+					"name": "Narkhed",
+					"hindiName": "नरखेड",
+					"check": false
+				},
+				{
+					"name": "Katol",
+					"hindiName": "काटोल",
+					"check": false
+				},
+				{
+					"name": "Kalameshwar",
+					"hindiName": "कळमेश्र्वर",
+					"check": false
+				},
+				{
+					"name": "Savner",
+					"hindiName": "सावनेर",
+					"check": false
+				},
+				{
+					"name": "Parseoni",
+					"hindiName": "पारशिवनी",
+					"check": false
+				},
+				{
+					"name": "Ramtek",
+					"hindiName": "रामटेक",
+					"check": false
+				},
+				{
+					"name": "Mauda",
+					"hindiName": "मौदा",
+					"check": false
+				},
+				{
+					"name": "Kamptee",
+					"hindiName": "कामठी",
+					"check": false
+				},
+				{
+					"name": "Nagpur (Rural)",
+					"hindiName": "नागपूर (ग्रामीण)",
+					"check": false
+				},
+				{
+					"name": "Nagpur (Urban)",
+					"hindiName": "",
+					"check": false
+				},
+				{
+					"name": "Hingna",
+					"hindiName": "हिंगणा",
+					"check": false
+				},
+				{
+					"name": "Umred",
+					"hindiName": "उमरेड",
+					"check": false
+				},
+				{
+					"name": "Kuhi",
+					"hindiName": "कुही",
+					"check": false
+				},
+				{
+					"name": "Bhiwapur",
+					"hindiName": "भिवापूर",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Bhandara",
+			"hindiName": "भंडारा",
+			"check": false,
+			"block": [
+				{
+					"name": "Bhandara",
+					"hindiName": "भंडारा",
+					"check": false
+				},
+				{
+					"name": "Tumsar",
+					"hindiName": "तुमसर",
+					"check": false
+				},
+				{
+					"name": "Mohadi",
+					"hindiName": "मोहाडी",
+					"check": false
+				},
+				{
+					"name": "Sakoli",
+					"hindiName": "साकोली",
+					"check": false
+				},
+				{
+					"name": "Lakhani",
+					"hindiName": "लाखनी",
+					"check": false
+				},
+				{
+					"name": "Pauni",
+					"hindiName": "पवनी",
+					"check": false
+				},
+				{
+					"name": "Lakhandur",
+					"hindiName": "लाखांदूर",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Gondiya",
+			"hindiName": "गोंदिया",
+			"check": false,
+			"block": [
+				{
+					"name": "Gondiya",
+					"hindiName": "गोंदिया",
+					"check": false
+				},
+				{
+					"name": "Tirora",
+					"hindiName": "तिरोडा",
+					"check": false
+				},
+				{
+					"name": "Goregaon",
+					"hindiName": "गोरेगाव",
+					"check": false
+				},
+				{
+					"name": "Amgaon",
+					"hindiName": "आमगाव",
+					"check": false
+				},
+				{
+					"name": "Salekasa",
+					"hindiName": "सालेकसा",
+					"check": false
+				},
+				{
+					"name": "Sadak-Arjuni",
+					"hindiName": "सडक अर्जुनी",
+					"check": false
+				},
+				{
+					"name": "Arjuni Morgaon",
+					"hindiName": "अर्जुनी मोरगाव",
+					"check": false
+				},
+				{
+					"name": "Deori",
+					"hindiName": "देवरी",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Gadchiroli",
+			"hindiName": "गडचिरोली",
+			"check": false,
+			"block": [
+				{
+					"name": "Gadchiroli",
+					"hindiName": "गडचिरोली",
+					"check": false
+				},
+				{
+					"name": "Desaiganj (Vadasa)",
+					"hindiName": "देसाईगंज (वादासा)",
+					"check": false
+				},
+				{
+					"name": "Armori",
+					"hindiName": "आरमोरी",
+					"check": false
+				},
+				{
+					"name": "Kurkheda",
+					"hindiName": "कुरखेडा",
+					"check": false
+				},
+				{
+					"name": "Korchi",
+					"hindiName": "कोरची",
+					"check": false
+				},
+				{
+					"name": "Dhanora",
+					"hindiName": "धानोरा",
+					"check": false
+				},
+				{
+					"name": "Chamorshi",
+					"hindiName": "चामोर्शी",
+					"check": false
+				},
+				{
+					"name": "Mulchera",
+					"hindiName": "मुलचेरा",
+					"check": false
+				},
+				{
+					"name": "Etapalli",
+					"hindiName": "एटापल्ली",
+					"check": false
+				},
+				{
+					"name": "Bhamragad",
+					"hindiName": "भामरागड",
+					"check": false
+				},
+				{
+					"name": "Aheri",
+					"hindiName": "अहेरी",
+					"check": false
+				},
+				{
+					"name": "Sironcha",
+					"hindiName": "सिरोंचा",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Chandrapur",
+			"hindiName": "चंद्रपूर",
+			"check": false,
+			"block": [
+				{
+					"name": "Chandrapur",
+					"hindiName": "चंद्रपूर",
+					"check": false
+				},
+				{
+					"name": "Warora",
+					"hindiName": "वरोरा",
+					"check": false
+				},
+				{
+					"name": "Chimur",
+					"hindiName": "चिमूर",
+					"check": false
+				},
+				{
+					"name": "Nagbhir",
+					"hindiName": "नागभीड",
+					"check": false
+				},
+				{
+					"name": "Brahmapuri",
+					"hindiName": "ब्रम्हपुरी",
+					"check": false
+				},
+				{
+					"name": "Sawali",
+					"hindiName": "सावली",
+					"check": false
+				},
+				{
+					"name": "Sindewahi",
+					"hindiName": "सिंदेवाही",
+					"check": false
+				},
+				{
+					"name": "Bhadravati",
+					"hindiName": "भद्रावती",
+					"check": false
+				},
+				{
+					"name": "Mul",
+					"hindiName": "मूल",
+					"check": false
+				},
+				{
+					"name": "Pombhurna",
+					"hindiName": "पोंभुर्णा",
+					"check": false
+				},
+				{
+					"name": "Ballarpur",
+					"hindiName": "बल्लारपूर",
+					"check": false
+				},
+				{
+					"name": "Korpana",
+					"hindiName": "कोरपना",
+					"check": false
+				},
+				{
+					"name": "Jiwati",
+					"hindiName": "जिवती",
+					"check": false
+				},
+				{
+					"name": "Rajura",
+					"hindiName": "राजुरा",
+					"check": false
+				},
+				{
+					"name": "Gondpipri",
+					"hindiName": "गोंडपिपरी",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Yavatmal",
+			"hindiName": "यवतमाळ",
+			"check": false,
+			"block": [
+				{
+					"name": "Yavatmal",
+					"hindiName": "यवतमाळ",
+					"check": false
+				},
+				{
+					"name": "Ner",
+					"hindiName": "नेर",
+					"check": false
+				},
+				{
+					"name": "Babulgaon",
+					"hindiName": "बाभूळगाव",
+					"check": false
+				},
+				{
+					"name": "Kalamb",
+					"hindiName": "कळंब",
+					"check": false
+				},
+				{
+					"name": "Darwha",
+					"hindiName": "दारव्हा",
+					"check": false
+				},
+				{
+					"name": "Digras",
+					"hindiName": "दिग्रस",
+					"check": false
+				},
+				{
+					"name": "Pusad",
+					"hindiName": "पुसद",
+					"check": false
+				},
+				{
+					"name": "Umarkhed",
+					"hindiName": "उमरखेड",
+					"check": false
+				},
+				{
+					"name": "Mahagaon",
+					"hindiName": "महागाव",
+					"check": false
+				},
+				{
+					"name": "Arni",
+					"hindiName": "आर्णी",
+					"check": false
+				},
+				{
+					"name": "Ghatanji",
+					"hindiName": "घाटंजी",
+					"check": false
+				},
+				{
+					"name": "Kelapur",
+					"hindiName": "केळापूर",
+					"check": false
+				},
+				{
+					"name": "Ralegaon",
+					"hindiName": "राळेगाव",
+					"check": false
+				},
+				{
+					"name": "Maregaon",
+					"hindiName": "मोरेगाव",
+					"check": false
+				},
+				{
+					"name": "Zari-Jamani",
+					"hindiName": "झरी जामडी",
+					"check": false
+				},
+				{
+					"name": "Wani",
+					"hindiName": "वणी",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Nanded",
+			"hindiName": "नांदेड",
+			"check": false,
+			"block": [
+				{
+					"name": "Nanded",
+					"hindiName": "नांदेड",
+					"check": false
+				},
+				{
+					"name": "Mahoor",
+					"hindiName": "माहूर",
+					"check": false
+				},
+				{
+					"name": "Kinwat",
+					"hindiName": "किनवट",
+					"check": false
+				},
+				{
+					"name": "Himayatnagar",
+					"hindiName": "हिमायतनगर",
+					"check": false
+				},
+				{
+					"name": "Hadgaon",
+					"hindiName": "हदगाव",
+					"check": false
+				},
+				{
+					"name": "Ardhapur",
+					"hindiName": "अर्धापूर",
+					"check": false
+				},
+				{
+					"name": "Mudkhed",
+					"hindiName": "मुदखेड",
+					"check": false
+				},
+				{
+					"name": "Bhokar",
+					"hindiName": "भोकर",
+					"check": false
+				},
+				{
+					"name": "Umri",
+					"hindiName": "उमरी",
+					"check": false
+				},
+				{
+					"name": "Dharmabad",
+					"hindiName": "धर्माबाद",
+					"check": false
+				},
+				{
+					"name": "Biloli",
+					"hindiName": "बिलोली",
+					"check": false
+				},
+				{
+					"name": "Naigaon (Khairgaon)",
+					"hindiName": "नायगाव (खैरगाव)",
+					"check": false
+				},
+				{
+					"name": "Loha",
+					"hindiName": "लोहा",
+					"check": false
+				},
+				{
+					"name": "Kandhar",
+					"hindiName": "कंधार",
+					"check": false
+				},
+				{
+					"name": "Mukhed",
+					"hindiName": "मुखेड",
+					"check": false
+				},
+				{
+					"name": "Deglur",
+					"hindiName": "देगलूर",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Hingoli",
+			"hindiName": "हिंगोली",
+			"check": false,
+			"block": [
+				{
+					"name": "Hingoli",
+					"hindiName": "हिंगोली",
+					"check": false
+				},
+				{
+					"name": "Sengaon",
+					"hindiName": "सेनगाव",
+					"check": false
+				},
+				{
+					"name": "Aundha (Nagnath)",
+					"hindiName": "औंढा (नागनाथ)",
+					"check": false
+				},
+				{
+					"name": "Kalamnuri",
+					"hindiName": "कळमनुरी",
+					"check": false
+				},
+				{
+					"name": "Basmath",
+					"hindiName": "बसमत",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Parbhani",
+			"hindiName": "परभणी",
+			"check": false,
+			"block": [
+				{
+					"name": "Parbhani",
+					"hindiName": "परभणी",
+					"check": false
+				},
+				{
+					"name": "Sailu",
+					"hindiName": "सेलू",
+					"check": false
+				},
+				{
+					"name": "Jintur",
+					"hindiName": "जिंतूर",
+					"check": false
+				},
+				{
+					"name": "Manwath",
+					"hindiName": "मानवत",
+					"check": false
+				},
+				{
+					"name": "Pathri",
+					"hindiName": "पाथ्री",
+					"check": false
+				},
+				{
+					"name": "Sonpeth",
+					"hindiName": "सोनपेठ",
+					"check": false
+				},
+				{
+					"name": "Gangakhed",
+					"hindiName": "गंगाखेड",
+					"check": false
+				},
+				{
+					"name": "Palam",
+					"hindiName": "पालम",
+					"check": false
+				},
+				{
+					"name": "Purna",
+					"hindiName": "पूर्णा",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Jalna",
+			"hindiName": "जालना",
+			"check": false,
+			"block": [
+				{
+					"name": "Jalna",
+					"hindiName": "जालना",
+					"check": false
+				},
+				{
+					"name": "Bhokardan",
+					"hindiName": "भोकरदन",
+					"check": false
+				},
+				{
+					"name": "Jafferabad",
+					"hindiName": "जाफ्राबाद",
+					"check": false
+				},
+				{
+					"name": "Badnapur",
+					"hindiName": "बदनापूर",
+					"check": false
+				},
+				{
+					"name": "Ambad",
+					"hindiName": "अंबड",
+					"check": false
+				},
+				{
+					"name": "Ghansawangi",
+					"hindiName": "घनसावंगी",
+					"check": false
+				},
+				{
+					"name": "Partur",
+					"hindiName": "परतूर",
+					"check": false
+				},
+				{
+					"name": "Mantha",
+					"hindiName": "मंठा",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Aurangabad",
+			"hindiName": "औरंगाबाद",
+			"check": false,
+			"block": [
+				{
+					"name": "Aurangabad",
+					"hindiName": "औरंगाबाद",
+					"check": false
+				},
+				{
+					"name": "Kannad",
+					"hindiName": "कन्नड",
+					"check": false
+				},
+				{
+					"name": "Soegaon",
+					"hindiName": "सोयगाव",
+					"check": false
+				},
+				{
+					"name": "Sillod",
+					"hindiName": "सिल्लोड",
+					"check": false
+				},
+				{
+					"name": "Phulambri",
+					"hindiName": "फुलंब्री",
+					"check": false
+				},
+				{
+					"name": "Khuldabad",
+					"hindiName": "खुलताबाद",
+					"check": false
+				},
+				{
+					"name": "Vaijapur",
+					"hindiName": "वैजापूर",
+					"check": false
+				},
+				{
+					"name": "Gangapur",
+					"hindiName": "गंगापूर",
+					"check": false
+				},
+				{
+					"name": "Paithan",
+					"hindiName": "पैठण",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Nashik",
+			"hindiName": "नाशिक",
+			"check": false,
+			"block": [
+				{
+					"name": "Nashik",
+					"hindiName": "नाशिक",
+					"check": false
+				},
+				{
+					"name": "Surgana",
+					"hindiName": "सुरगाणा",
+					"check": false
+				},
+				{
+					"name": "Kalwan",
+					"hindiName": "कळवण",
+					"check": false
+				},
+				{
+					"name": "Deola",
+					"hindiName": "देवळा",
+					"check": false
+				},
+				{
+					"name": "Baglan",
+					"hindiName": "बागलाण",
+					"check": false
+				},
+				{
+					"name": "Malegaon",
+					"hindiName": "मालेगाव",
+					"check": false
+				},
+				{
+					"name": "Nandgaon",
+					"hindiName": "नांदगाव",
+					"check": false
+				},
+				{
+					"name": "Chandvad",
+					"hindiName": "चांदवड",
+					"check": false
+				},
+				{
+					"name": "Dindori",
+					"hindiName": "दिंडोरी",
+					"check": false
+				},
+				{
+					"name": "Peint",
+					"hindiName": "पेठ",
+					"check": false
+				},
+				{
+					"name": "Trimbakeshwar",
+					"hindiName": "त्र्यंबकेश्र्वर",
+					"check": false
+				},
+				{
+					"name": "Igatpuri",
+					"hindiName": "इगतपुरी",
+					"check": false
+				},
+				{
+					"name": "Sinnar",
+					"hindiName": "सिन्नर",
+					"check": false
+				},
+				{
+					"name": "Niphad",
+					"hindiName": "निफाड",
+					"check": false
+				},
+				{
+					"name": "Yevla",
+					"hindiName": "येवले",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Thane",
+			"hindiName": "ठाणे",
+			"check": false,
+			"block": [
+				{
+					"name": "Thane",
+					"hindiName": "ठाणे",
+					"check": false
+				},
+				{
+					"name": "Talasari",
+					"hindiName": "तलासरी",
+					"check": false
+				},
+				{
+					"name": "Dahanu",
+					"hindiName": "डहाणू",
+					"check": false
+				},
+				{
+					"name": "Vikramgad",
+					"hindiName": "विक्रमगड",
+					"check": false
+				},
+				{
+					"name": "Jawhar",
+					"hindiName": "जव्हार",
+					"check": false
+				},
+				{
+					"name": "Mokhada",
+					"hindiName": "मोखाडा",
+					"check": false
+				},
+				{
+					"name": "Vada",
+					"hindiName": "वाडा",
+					"check": false
+				},
+				{
+					"name": "Palghar",
+					"hindiName": "पालघर",
+					"check": false
+				},
+				{
+					"name": "Vasai",
+					"hindiName": "वसई",
+					"check": false
+				},
+				{
+					"name": "Bhiwandi",
+					"hindiName": "भिवंडी",
+					"check": false
+				},
+				{
+					"name": "Shahapur",
+					"hindiName": "शहापूर",
+					"check": false
+				},
+				{
+					"name": "Kalyan",
+					"hindiName": "कल्याण",
+					"check": false
+				},
+				{
+					"name": "Ulhasnagar",
+					"hindiName": "उल्हासनगर",
+					"check": false
+				},
+				{
+					"name": "Ambarnath",
+					"hindiName": "अंबरनाथ",
+					"check": false
+				},
+				{
+					"name": "Murbad",
+					"hindiName": "मुरबाड",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Mumbai Suburban",
+			"hindiName": "मुंबई उपनगर",
+			"check": false,
+			"block": [
+				{
+					"name": "Mumbai Suburban",
+					"hindiName": "मुंबई उपनगर",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Mumbai",
+			"hindiName": "मुंबई",
+			"check": false,
+			"block": [
+				{
+					"name": "Mumbai",
+					"hindiName": "मुंबई",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Raigarh",
+			"hindiName": "रायगड",
+			"check": false,
+			"block": [
+				{
+					"name": "Raigarh",
+					"hindiName": "रायगड",
+					"check": false
+				},
+				{
+					"name": "Uran",
+					"hindiName": "उरण",
+					"check": false
+				},
+				{
+					"name": "Panvel",
+					"hindiName": "पनवेल",
+					"check": false
+				},
+				{
+					"name": "Karjat",
+					"hindiName": "कर्जत",
+					"check": false
+				},
+				{
+					"name": "Khalapur",
+					"hindiName": "खालापूर",
+					"check": false
+				},
+				{
+					"name": "Pen",
+					"hindiName": "पेण",
+					"check": false
+				},
+				{
+					"name": "Alibag",
+					"hindiName": "अलिबाग",
+					"check": false
+				},
+				{
+					"name": "Murud",
+					"hindiName": "मुरुड",
+					"check": false
+				},
+				{
+					"name": "Roha",
+					"hindiName": "रोहा",
+					"check": false
+				},
+				{
+					"name": "Sudhagad",
+					"hindiName": "सुधागड",
+					"check": false
+				},
+				{
+					"name": "Mangaon",
+					"hindiName": "माणगाव",
+					"check": false
+				},
+				{
+					"name": "Tala",
+					"hindiName": "तळा",
+					"check": false
+				},
+				{
+					"name": "Shrivardhan",
+					"hindiName": "श्रीवर्धन",
+					"check": false
+				},
+				{
+					"name": "Mhasla",
+					"hindiName": "म्हसळा",
+					"check": false
+				},
+				{
+					"name": "Mahad",
+					"hindiName": "महाड",
+					"check": false
+				},
+				{
+					"name": "Poladpur",
+					"hindiName": "पोलादपूर",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Pune",
+			"hindiName": "पुणे",
+			"check": false,
+			"block": [
+				{
+					"name": "Pune",
+					"hindiName": "पुणे",
+					"check": false
+				},
+				{
+					"name": "Junnar",
+					"hindiName": "जुन्नर",
+					"check": false
+				},
+				{
+					"name": "Ambegaon",
+					"hindiName": "आंबेगाव",
+					"check": false
+				},
+				{
+					"name": "Shirur",
+					"hindiName": "शिरूर",
+					"check": false
+				},
+				{
+					"name": "Khed",
+					"hindiName": "खेड",
+					"check": false
+				},
+				{
+					"name": "Mawal",
+					"hindiName": "मावळ",
+					"check": false
+				},
+				{
+					"name": "Mulshi",
+					"hindiName": "मुळशी",
+					"check": false
+				},
+				{
+					"name": "Haveli",
+					"hindiName": "हवेली",
+					"check": false
+				},
+				{
+					"name": "Pune City",
+					"hindiName": "पुणे शहर",
+					"check": false
+				},
+				{
+					"name": "Daund",
+					"hindiName": "दौंड",
+					"check": false
+				},
+				{
+					"name": "Purandhar",
+					"hindiName": "पुरंदर",
+					"check": false
+				},
+				{
+					"name": "Velhe",
+					"hindiName": "वेल्हे",
+					"check": false
+				},
+				{
+					"name": "Bhor",
+					"hindiName": "भोर",
+					"check": false
+				},
+				{
+					"name": "Baramati",
+					"hindiName": "बारामती",
+					"check": false
+				},
+				{
+					"name": "Indapur",
+					"hindiName": "इंदापूर",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Ahmadnagar",
+			"hindiName": "अहमदनगर",
+			"check": false,
+			"block": [
+				{
+					"name": "Ahmadnagar",
+					"hindiName": "अहमदनगर",
+					"check": false
+				},
+				{
+					"name": "Akola",
+					"hindiName": "अकोला",
+					"check": false
+				},
+				{
+					"name": "Sangamner",
+					"hindiName": "संगमनेर",
+					"check": false
+				},
+				{
+					"name": "Kopargaon",
+					"hindiName": "कोपरगाव",
+					"check": false
+				},
+				{
+					"name": "Rahta",
+					"hindiName": "रहाता",
+					"check": false
+				},
+				{
+					"name": "Shrirampur",
+					"hindiName": "श्रीरामपूर",
+					"check": false
+				},
+				{
+					"name": "Nevasa",
+					"hindiName": "नेवासा",
+					"check": false
+				},
+				{
+					"name": "Shevgaon",
+					"hindiName": "शेवगाव",
+					"check": false
+				},
+				{
+					"name": "Pathardi",
+					"hindiName": "पाथर्डी",
+					"check": false
+				},
+				{
+					"name": "Nagar",
+					"hindiName": "नगर",
+					"check": false
+				},
+				{
+					"name": "Rahuri",
+					"hindiName": "राहुरी",
+					"check": false
+				},
+				{
+					"name": "Parner",
+					"hindiName": "पारनेर",
+					"check": false
+				},
+				{
+					"name": "Shrigonda",
+					"hindiName": "श्रीगोंदे",
+					"check": false
+				},
+				{
+					"name": "Karjat",
+					"hindiName": "कर्जत",
+					"check": false
+				},
+				{
+					"name": "Jamkhed",
+					"hindiName": "जामखेड",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Bid",
+			"hindiName": "बीड",
+			"check": false,
+			"block": [
+				{
+					"name": "Bid",
+					"hindiName": "बीड",
+					"check": false
+				},
+				{
+					"name": "Ashti",
+					"hindiName": "आष्टी",
+					"check": false
+				},
+				{
+					"name": "Patoda",
+					"hindiName": "पाटोदा",
+					"check": false
+				},
+				{
+					"name": "Shirur (Kasar)",
+					"hindiName": "शिरूर (कासार)",
+					"check": false
+				},
+				{
+					"name": "Georai",
+					"hindiName": "गेवराई",
+					"check": false
+				},
+				{
+					"name": "Manjlegaon",
+					"hindiName": "माजलगाव",
+					"check": false
+				},
+				{
+					"name": "Wadwani",
+					"hindiName": "वडवणी",
+					"check": false
+				},
+				{
+					"name": "Kaij",
+					"hindiName": "केज",
+					"check": false
+				},
+				{
+					"name": "Dharur",
+					"hindiName": "धारूर",
+					"check": false
+				},
+				{
+					"name": "Parli",
+					"hindiName": "परळी",
+					"check": false
+				},
+				{
+					"name": "Ambejogai",
+					"hindiName": "अंबेजोगाई",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Latur",
+			"hindiName": "लातूर",
+			"check": false,
+			"block": [
+				{
+					"name": "Latur",
+					"hindiName": "लातूर",
+					"check": false
+				},
+				{
+					"name": "Renapur",
+					"hindiName": "रेणापूर",
+					"check": false
+				},
+				{
+					"name": "Ahmadpur",
+					"hindiName": "अहमदपूर",
+					"check": false
+				},
+				{
+					"name": "Jalkot",
+					"hindiName": "जळकोट",
+					"check": false
+				},
+				{
+					"name": "Chakur",
+					"hindiName": "चाकूर",
+					"check": false
+				},
+				{
+					"name": "Shirur-Anantpal",
+					"hindiName": "शिरुर (अनंतपाळ)",
+					"check": false
+				},
+				{
+					"name": "Ausa",
+					"hindiName": "औसा",
+					"check": false
+				},
+				{
+					"name": "Nilanga",
+					"hindiName": "निलंगा",
+					"check": false
+				},
+				{
+					"name": "Deoni",
+					"hindiName": "देवणी",
+					"check": false
+				},
+				{
+					"name": "Udgir",
+					"hindiName": "उदगीर",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Osmanabad",
+			"hindiName": "उस्मानाबाद",
+			"check": false,
+			"block": [
+				{
+					"name": "Osmanabad",
+					"hindiName": "उस्मानाबाद",
+					"check": false
+				},
+				{
+					"name": "Paranda",
+					"hindiName": "परांडा",
+					"check": false
+				},
+				{
+					"name": "Bhum",
+					"hindiName": "भूम",
+					"check": false
+				},
+				{
+					"name": "Washi",
+					"hindiName": "वाशी",
+					"check": false
+				},
+				{
+					"name": "Kalamb",
+					"hindiName": "कळंब",
+					"check": false
+				},
+				{
+					"name": "Tuljapur",
+					"hindiName": "तुळजापूर",
+					"check": false
+				},
+				{
+					"name": "Lohara",
+					"hindiName": "लोहारा",
+					"check": false
+				},
+				{
+					"name": "Umarga",
+					"hindiName": "उमरगा",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Solapur",
+			"hindiName": "सोलापूर",
+			"check": false,
+			"block": [
+				{
+					"name": "Solapur",
+					"hindiName": "सोलापूर",
+					"check": false
+				},
+				{
+					"name": "Karmala",
+					"hindiName": "करमाळा",
+					"check": false
+				},
+				{
+					"name": "Madha",
+					"hindiName": "माढा",
+					"check": false
+				},
+				{
+					"name": "Barshi",
+					"hindiName": "बार्शी",
+					"check": false
+				},
+				{
+					"name": "Solapur North",
+					"hindiName": "सोलापूर उत्तर",
+					"check": false
+				},
+				{
+					"name": "Mohol",
+					"hindiName": "मोहोळ",
+					"check": false
+				},
+				{
+					"name": "Pandharpur",
+					"hindiName": "पंढरपूर",
+					"check": false
+				},
+				{
+					"name": "Malshiras",
+					"hindiName": "माळशिरस",
+					"check": false
+				},
+				{
+					"name": "Sangole",
+					"hindiName": "सांगोले",
+					"check": false
+				},
+				{
+					"name": "Mangalvedhe",
+					"hindiName": "मंगळवेढे",
+					"check": false
+				},
+				{
+					"name": "Solapur South",
+					"hindiName": "सोलापूर दक्षिण",
+					"check": false
+				},
+				{
+					"name": "Akkalkot",
+					"hindiName": "अक्कलकोट",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Satara",
+			"hindiName": "सातारा",
+			"check": false,
+			"block": [
+				{
+					"name": "Satara",
+					"hindiName": "सातारा",
+					"check": false
+				},
+				{
+					"name": "Mahabaleshwar",
+					"hindiName": "महाबळेश्वर",
+					"check": false
+				},
+				{
+					"name": "Wai",
+					"hindiName": "वाई",
+					"check": false
+				},
+				{
+					"name": "Khandala",
+					"hindiName": "खंडाला",
+					"check": false
+				},
+				{
+					"name": "Phaltan",
+					"hindiName": "फलटण",
+					"check": false
+				},
+				{
+					"name": "Man",
+					"hindiName": "माण",
+					"check": false
+				},
+				{
+					"name": "Khatav",
+					"hindiName": "खटाव",
+					"check": false
+				},
+				{
+					"name": "Koregaon",
+					"hindiName": "कोरेगाव",
+					"check": false
+				},
+				{
+					"name": "Jaoli",
+					"hindiName": "जावळी",
+					"check": false
+				},
+				{
+					"name": "Patan",
+					"hindiName": "पाटण",
+					"check": false
+				},
+				{
+					"name": "Karad",
+					"hindiName": "कराड",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Ratnagiri",
+			"hindiName": "रत्नागिरी",
+			"check": false,
+			"block": [
+				{
+					"name": "Ratnagiri",
+					"hindiName": "रत्नागिरी",
+					"check": false
+				},
+				{
+					"name": "Mandangad",
+					"hindiName": "मंडणगड",
+					"check": false
+				},
+				{
+					"name": "Dapoli",
+					"hindiName": "दापोली",
+					"check": false
+				},
+				{
+					"name": "Khed",
+					"hindiName": "खेड",
+					"check": false
+				},
+				{
+					"name": "Chiplun",
+					"hindiName": "चिपळूण",
+					"check": false
+				},
+				{
+					"name": "Guhagar",
+					"hindiName": "गुहागर",
+					"check": false
+				},
+				{
+					"name": "Sangameshwar",
+					"hindiName": "संगमेश्र्वर",
+					"check": false
+				},
+				{
+					"name": "Lanja",
+					"hindiName": "लांजा",
+					"check": false
+				},
+				{
+					"name": "Rajapur",
+					"hindiName": "राजापूर",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Sindhudurg",
+			"hindiName": "सिंधुदुर्ग",
+			"check": false,
+			"block": [
+				{
+					"name": "Sindhudurg",
+					"hindiName": "राजापूर",
+					"check": false
+				},
+				{
+					"name": "Devgad",
+					"hindiName": "देवगड",
+					"check": false
+				},
+				{
+					"name": "Vaibhavvadi",
+					"hindiName": "वैभववाडी",
+					"check": false
+				},
+				{
+					"name": "Kankavli",
+					"hindiName": "कणकवली",
+					"check": false
+				},
+				{
+					"name": "Malwan",
+					"hindiName": "मालवण",
+					"check": false
+				},
+				{
+					"name": "Vengurla",
+					"hindiName": "वेंगुर्ला",
+					"check": false
+				},
+				{
+					"name": "Kudal",
+					"hindiName": "कुडाळ",
+					"check": false
+				},
+				{
+					"name": "Sawantwadi",
+					"hindiName": "सावंतवाडी",
+					"check": false
+				},
+				{
+					"name": "Dodamarg",
+					"hindiName": "दोडामार्ग",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Kolhapur",
+			"hindiName": "कोल्हापूर",
+			"check": false,
+			"block": [
+				{
+					"name": "Kolhapur",
+					"hindiName": "कोल्हापूर",
+					"check": false
+				},
+				{
+					"name": "Shahuwadi",
+					"hindiName": "शाहूवाडी",
+					"check": false
+				},
+				{
+					"name": "Panhala",
+					"hindiName": "पन्हाळा",
+					"check": false
+				},
+				{
+					"name": "Hatkanangle",
+					"hindiName": "हातकणंगले",
+					"check": false
+				},
+				{
+					"name": "Shirol",
+					"hindiName": "शिरोळ",
+					"check": false
+				},
+				{
+					"name": "Karvir",
+					"hindiName": "करवीर",
+					"check": false
+				},
+				{
+					"name": "Bavda",
+					"hindiName": "गगनबावडा",
+					"check": false
+				},
+				{
+					"name": "Radhanagari",
+					"hindiName": "राधानगरी",
+					"check": false
+				},
+				{
+					"name": "Kagal",
+					"hindiName": "कागल",
+					"check": false
+				},
+				{
+					"name": "Bhudargad",
+					"hindiName": "भुदरगड",
+					"check": false
+				},
+				{
+					"name": "Ajra",
+					"hindiName": "आजरा",
+					"check": false
+				},
+				{
+					"name": "Gadhinglaj",
+					"hindiName": "गडहिंग्लज",
+					"check": false
+				},
+				{
+					"name": "Chandgad",
+					"hindiName": "चंदगड",
+					"check": false
+				}
+			]
+		},
+		{
+			"name": "Sangli",
+			"hindiName": "सांगली",
+			"check": false,
+			"block": [
+				{
+					"name": "Sangli",
+					"hindiName": "सांगली",
+					"check": false
+				},
+				{
+					"name": "Shirala",
+					"hindiName": "शिराळा",
+					"check": false
+				},
+				{
+					"name": "Walwa",
+					"hindiName": "वाळवा",
+					"check": false
+				},
+				{
+					"name": "Palus",
+					"hindiName": "पलूस",
+					"check": false
+				},
+				{
+					"name": "Kadegaon",
+					"hindiName": "कडेगाव",
+					"check": false
+				},
+				{
+					"name": "Khanapur (Vita)",
+					"hindiName": "खानापूर (विटा)",
+					"check": false
+				},
+				{
+					"name": "Atpadi",
+					"hindiName": "आटपाडी",
+					"check": false
+				},
+				{
+					"name": "Tasgaon",
+					"hindiName": "तासगाव",
+					"check": false
+				},
+				{
+					"name": "Miraj",
+					"hindiName": "मिरज",
+					"check": false
+				},
+				{
+					"name": "Kavathemahankal",
+					"hindiName": "कवठे महांकाळ",
+					"check": false
+				},
+				{
+					"name": "Jat",
+					"hindiName": "जत",
+					"check": false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="@dimen/dp60"
+    android:layout_height="@dimen/dp60"
+    android:layout_marginLeft="@dimen/dp2"
+    android:layout_marginRight="@dimen/dp1">
+
+ <!--   <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/thumbnel_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            fresco:placeholderImage="@drawable/detail_placeholder"
+            fresco:roundedCornerRadius="@dimen/dp3"
+            />
+
+        <ImageView
+            android:id="@+id/play_button_cl"
+            android:layout_width="@dimen/dp25"
+            android:layout_height="@dimen/dp25"
+            android:src="@drawable/play"
+            android:layout_centerInParent="true"
+            />
+
+        <RelativeLayout
+            android:id="@+id/load_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            >
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:indeterminate="true"
+                android:indeterminateTintMode="src_atop"
+                android:indeterminateTint="@color/white"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:id="@+id/tvCrossImage"
+                android:layout_width="@dimen/dp20"
+                android:layout_height="@dimen/dp20"
+                android:src="@drawable/close"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/delete_icon"
+        android:layout_width="@dimen/dp25"
+        android:layout_height="@dimen/dp25"
+        android:src="@drawable/delet"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/dp1"
+        />
+</RelativeLayout>

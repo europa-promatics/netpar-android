@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ga_trackingId" translatable="false">UA-109926120-1</string>
+
+    <integer name="ga_sessionTimeout">300</integer>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+    <!--  The property id associated with this analytics tracker -->
+    <string name="ga_trackingId">UA-109926120-1</string>
+    <string name="ga_sampleFrequency">100.0</string>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <screenName name="co.netpar.Home">Home Screen</screenName>
+    <screenName name="co.netpar.ContentView">Content View Screen</screenName>
+
+</resources>

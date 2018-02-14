@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:app="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_height="match_parent"
+    app:layout_width="match_parent"
+    tools:ignore="NamespaceTypo">
+
+</android.support.design.widget.CoordinatorLayout>
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme_AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:background="?attr/colorPrimary"
+            android:id="@+id/toolbar"
+            android:layout_height="UNKNOWN_DATA_0x7f010069"
+            android:layout_width="match_parent"
+            android:popupTheme="@style/AppTheme_PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_dashboard" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_width="wrap_content"
+        android:srcCompat="0x1080029" />
+</android.support.design.widget.CoordinatorLayout>
+-->

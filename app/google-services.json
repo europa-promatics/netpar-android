@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "309677690000",
+    "firebase_url": "https://netpar-aab25.firebaseio.com",
+    "project_id": "netpar-aab25",
+    "storage_bucket": "netpar-aab25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309677690000:android:c0560ef55ce4b6e7",
+        "android_client_info": {
+          "package_name": "co.netpar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309677690000-25v8qte00otlkl2v4q7ov453b38483oe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBEppleDWO_5xj49YjMHcWXjkIl2dULUY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

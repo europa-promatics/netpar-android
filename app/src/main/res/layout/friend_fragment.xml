@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/gray_back"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp10"
+        android:background="@drawable/white_redious_back"
+        android:orientation="vertical"
+        app:cardCornerRadius="@dimen/dp10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_redious_back"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RelativeLayout
+                    android:id="@+id/netpar_friend"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/netpar_friend_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/dp15"
+                        android:text="@string/friends_on_my_network"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text" />
+
+                    <View
+                        android:id="@+id/netpar_friend_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp1"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/light_gray" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/invite_friend"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/invite_friend_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/dp15"
+                        android:text="@string/invite"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text" />
+
+                    <View
+                        android:id="@+id/invite_friend_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp1"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/light_gray" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/friends_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_back"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

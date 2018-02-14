@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.NavigationView
+    android:id="@+id/nav_view"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/drower_back"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <include layout="@layout/nav_header_home"/>
+            <include layout="@layout/nav_child_home"/>
+        </LinearLayout>
+</android.support.design.widget.NavigationView>

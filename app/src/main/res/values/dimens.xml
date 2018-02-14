@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="alert_top_icon">60dp</dimen>
+    <dimen name="back_icon_size">20dp</dimen>
+    <dimen name="big_button_font">18sp</dimen>
+    <dimen name="big_title">23sp</dimen>
+    <dimen name="button_width">250dp</dimen>
+    <dimen name="lf_icon_size">23dp</dimen>
+    <dimen name="small_lf_icon_size">18dp</dimen>
+
+    <dimen name="bottom_small_icon">30dp</dimen>
+    <dimen name="bottom_large_icon">50dp</dimen>
+    <dimen name="profile_image_size">80dp</dimen>
+    <dimen name="hori_sec_img_height">35dp</dimen>
+    <dimen name="hori_categ_height">60dp</dimen>
+    <dimen name="hori_categ_height2">80dp</dimen>
+    <dimen name="vertical_categ_height1">160dp</dimen>
+    <dimen name="vertical_categ_height2">120dp</dimen>
+
+    <dimen name="friend_image_height">100dp</dimen>
+    <dimen name="friend_list_image_height">70dp</dimen>
+
+    <dimen name="heading_text">18sp</dimen>
+    <dimen name="icon_size">25dp</dimen>
+    <dimen name="sheet_icon_size">20dp</dimen>
+    <dimen name="nv_icon_size">25dp</dimen>
+    <dimen name="loader_size">150dp</dimen>
+    <dimen name="header_logo_size">90dp</dimen>
+    <dimen name="nav_item_top_height">@dimen/dp10</dimen>
+    <dimen name="nav_item_padding">@dimen/dp8</dimen>
+    <dimen name="nav_text_margin_left">@dimen/dp10</dimen>
+
+    <dimen name="catag_card_redious">10dp</dimen>
+
+    <dimen name="listView_top_image_height">170dp</dimen>
+    <dimen name="listView_item_image_height">110dp</dimen>
+
+
+    <dimen name="dp1">1dp</dimen>
+    <dimen name="dp2">2dp</dimen>
+    <dimen name="dp3">3dp</dimen>
+    <dimen name="dp4">4dp</dimen>
+    <dimen name="dp5">5dp</dimen>
+    <dimen name="dp8">8dp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="dp12">12dp</dimen>
+    <dimen name="dp15">15dp</dimen>
+    <dimen name="dp20">20dp</dimen>
+    <dimen name="dp25">25dp</dimen>
+    <dimen name="dp30">30dp</dimen>
+    <dimen name="dp40">40dp</dimen>
+    <dimen name="dp50">50dp</dimen>
+    <dimen name="dp55">55dp</dimen>
+    <dimen name="dp60">60dp</dimen>
+    <dimen name="dp65">65dp</dimen>
+    <dimen name="dp70">70dp</dimen>
+    <dimen name="dp80">80dp</dimen>
+    <dimen name="dp100">100dp</dimen>
+
+    <dimen name="drop_down_image">12dp</dimen>
+
+    <dimen name="contact_list_title">13sp</dimen>
+    <dimen name="contact_list_des">11sp</dimen>
+
+    <dimen name="main_button_padding">10dp</dimen>
+    <dimen name="main_logo_size">140dp</dimen>
+    <dimen name="main_logo_size_profile">120dp</dimen>
+
+    <dimen name="main_logo_top_margin">30dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="normal_button_font">16sp</dimen>
+    <dimen name="normal_text">16sp</dimen>
+    <dimen name="notification_action_icon_size">32dp</dimen>
+    <dimen name="notification_action_text_size">13sp</dimen>
+    <dimen name="notification_big_circle_margin">12dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_right_icon_size">16dp</dimen>
+    <dimen name="notification_small_icon_background_padding">3dp</dimen>
+    <dimen name="notification_small_icon_size_as_large">24dp</dimen>
+    <dimen name="notification_subtext_size">13sp</dimen>
+    <dimen name="notification_top_pad">10dp</dimen>
+    <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="opt_round_card_view_compat_inset_shadow">1dp</dimen>
+    <dimen name="opt_round_card_view_default_elevation">2dp</dimen>
+    <dimen name="opt_round_card_view_default_radius">2dp</dimen>
+    <dimen name="small_button_font">12sp</dimen>
+    <dimen name="small_text">12sp</dimen>
+    <dimen name="small_large_text">14sp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="flexible_space_image_height">200dp</dimen>
+
+    <dimen name="shadow_height">0dp</dimen>
+
+    <dimen name="design_fab_image_size" tools:override="true">@dimen/fab_image_size</dimen>
+    <dimen name="fab_image_size">55dp</dimen>
+
+
+    <dimen name="bottomsheet_default_sheet_width">0dp</dimen>
+    <dimen name="otp_edit_text_width">40dp</dimen>
+    <dimen name="drop_down_height">130dp</dimen>
+
+
+    <dimen name="red_action_button_size">62dp</dimen>
+    <dimen name="red_action_button_content_size">55dp</dimen>
+
+
+    <dimen name="ch_action_button_size">52dp</dimen>
+    <dimen name="ch_button_content_size">45dp</dimen>
+    <dimen name="ch_button_content_margin">10dp</dimen>
+
+
+    <dimen name="red_action_button_margin">40dp</dimen>
+
+    <dimen name="bottom_fab_margin">90dp</dimen>
+    <dimen name="detail_bottom_fab_margin">160dp</dimen>
+
+    <dimen name="red_action_button_content_margin">30dp</dimen>
+
+    <dimen name="red_action_menu_radius">96dp</dimen>
+    <dimen name="blue_sub_action_button_size">48dp</dimen>
+    <dimen name="blue_sub_action_button_content_margin">16dp</dimen>
+
+    <dimen name="radius_large">120dp</dimen>
+    <dimen name="radius_small">30dp</dimen>
+    <dimen name="radius_medium">72dp</dimen>
+
+    <dimen name="action_button_size">72dp</dimen>
+    <dimen name="action_button_content_margin">16dp</dimen>
+    <dimen name="action_button_margin">12dp</dimen>
+    <dimen name="action_menu_radius">96dp</dimen>
+    <dimen name="sub_action_button_size">36dp</dimen>
+    <dimen name="sub_action_button_content_margin">6dp</dimen>
+    <dimen name="download_image_height">170dp</dimen>
+    <dimen name="invite_icons">60dp</dimen>
+
+    <dimen name="dd">-50dp</dimen>
+</resources>

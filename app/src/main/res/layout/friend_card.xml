@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp3"
+        app:cardCornerRadius="@dimen/dp5">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/friend_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/friend_image_height"
+            fresco:roundAsCircle ="true"
+            fresco:placeholderImage="@drawable/friend_place"
+            />
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:gravity="center_horizontal"
+        android:text="Ravi Teja"
+        android:layout_margin="@dimen/dp3"
+        android:textColor="@color/black"
+        android:textSize="@dimen/heading_text" />
+
+</LinearLayout>

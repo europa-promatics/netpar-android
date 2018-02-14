@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/parent_scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/profile_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp5"
+                    android:orientation="vertical">
+                        <include layout="@layout/edit_layout" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/download_list_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp5"
+                    android:background="@drawable/white_redious_back"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:padding="@dimen/dp10"
+                        android:text="@string/downloaded"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp1"
+                        android:background="@color/light_gray" />
+
+                    <include layout="@layout/download_profile_lay" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp1"
+                        android:background="@color/light_gray" />
+
+                    <LinearLayout
+                        android:id="@+id/see_more_download"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dp5"
+                        android:gravity="right|center_vertical"
+                        android:orientation="horizontal"
+                        android:visibility="invisible">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/dp10"
+                            android:text="@string/see_more"
+                            android:textColor="@color/unsel_selectable_tab"
+                            android:textSize="@dimen/small_text" />
+
+                        <ImageView
+                            android:layout_width="@dimen/small_text"
+                            android:layout_height="@dimen/small_text"
+                            android:src="@drawable/next_arrow_gray" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/friend_list_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp5"
+                    android:background="@drawable/white_redious_back"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                       >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/dp10"
+                            android:text="@string/friends_on_my_network"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/normal_text" />
+
+                        <ImageView
+                            android:id="@+id/add_friend"
+                            android:layout_width="@dimen/icon_size"
+                            android:layout_height="@dimen/icon_size"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="@dimen/dp5"
+                            android:layout_marginTop="@dimen/dp5"
+                            android:src="@drawable/middle_plus"/>
+
+                    </RelativeLayout>
+
+                    <include layout="@layout/friendslay" />
+
+                    <LinearLayout
+                        android:id="@+id/see_more_friend"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/dp5"
+                        android:gravity="right|center_vertical"
+                        android:orientation="horizontal"
+                        android:visibility="invisible">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/dp10"
+                            android:text="@string/see_more"
+                            android:textColor="@color/unsel_selectable_tab"
+                            android:textSize="@dimen/small_text" />
+
+                        <ImageView
+                            android:layout_width="@dimen/small_text"
+                            android:layout_height="@dimen/small_text"
+                            android:src="@drawable/next_arrow_gray" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/save_list_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp5"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/saved_item_lay" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+        <View
+            android:id="@+id/bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#99000000"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+

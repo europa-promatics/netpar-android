@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/cancel"
+        android:layout_height="@dimen/icon_size"
+        android:layout_width="@dimen/icon_size"
+        android:src="@drawable/yellow_close"
+        android:layout_alignParentRight="true"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alert_back"
+        android:paddingBottom="@dimen/dp10"
+        android:paddingEnd="@dimen/dp10"
+        android:paddingStart="@dimen/dp10"
+        android:paddingTop="@dimen/dp10"
+        android:layout_below="@+id/cancel">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/all_comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           />
+
+    </RelativeLayout>
+</RelativeLayout>

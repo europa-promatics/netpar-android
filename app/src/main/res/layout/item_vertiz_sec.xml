@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="@+id/card_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/hori_categ_height"
+    android:layout_marginBottom="@dimen/dp3"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/color_lay"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="match_parent"
+        >
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/categ_image"
+            android:layout_width="@dimen/hori_sec_img_height"
+            android:layout_height="@dimen/hori_sec_img_height"
+            android:layout_marginLeft="@dimen/dp10"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/heading_text"
+            android:id="@+id/text"
+            android:textColor="@color/white"
+            android:text="21"
+            android:singleLine="true"
+            android:layout_marginLeft="@dimen/dp10"
+            android:gravity="center_vertical"
+            />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

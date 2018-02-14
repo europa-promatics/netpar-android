@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="@+id/card_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp70"
+    android:layout_margin="@dimen/dp3"
+    app:cardCornerRadius="@dimen/dp5"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/simple_radious_back_lay">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/categ_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            fresco:roundedCornerRadius="@dimen/dp5"
+            />
+
+        <LinearLayout
+            android:id="@+id/color_lay"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:background="@drawable/catag_3sidebackground"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/big_title"
+            android:id="@+id/text"
+            android:textColor="@color/white"
+            android:text="NEWS"
+            android:singleLine="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/dp20"
+            />
+
+
+        <ImageView
+            android:id="@+id/next_arrow"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/dp20"
+            android:src="@drawable/arrow"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

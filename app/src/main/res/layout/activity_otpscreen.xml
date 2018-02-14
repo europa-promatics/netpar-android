@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include layout="@layout/top_before_login" />
+
+    <LinearLayout
+        android:id="@+id/top_lay"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/great"
+            android:textColor="@color/white"
+            android:textSize="@dimen/big_title" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp20"
+            android:layout_width="wrap_content"
+            android:text="@string/we_hv_sent_the_otp_nwait_till_we_detect_it_or_you_can_enter_otp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/heading_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_below="@+id/top_lay"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+
+        <LinearLayout
+            android:id="@+id/pin_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:weightSum="7"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_height="@dimen/icon_size"
+                android:layout_width="@dimen/icon_size"
+                android:src="@drawable/lock" />
+
+            <com.reverie.customcomponent.RevEditText
+                android:id="@+id/pin_first_edittext"
+                android:layout_width="@dimen/otp_edit_text_width"
+                android:textSize="@dimen/heading_text"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp15"
+                android:textColor="@color/white"
+                android:inputType="number"
+                android:imeOptions="actionNext"
+                android:background="@drawable/textfield_focused"
+                style="@style/pin_edittext_style" />
+
+            <com.reverie.customcomponent.RevEditText
+                android:id="@+id/pin_second_edittext"
+                android:layout_width="@dimen/otp_edit_text_width"
+                android:textSize="@dimen/heading_text"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp3"
+                android:imeOptions="actionNext"
+                android:textColor="@color/white"
+                android:inputType="number"
+                android:background="@drawable/textfield_focused"
+                style="@style/pin_edittext_style" />
+
+            <com.reverie.customcomponent.RevEditText
+                android:id="@+id/pin_third_edittext"
+                android:layout_width="@dimen/otp_edit_text_width"
+                android:textSize="@dimen/heading_text"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp3"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:background="@drawable/textfield_focused"
+                style="@style/pin_edittext_style" />
+
+            <com.reverie.customcomponent.RevEditText
+                android:id="@+id/pin_forth_edittext"
+                android:layout_width="@dimen/otp_edit_text_width"
+                android:textSize="@dimen/heading_text"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield_focused"
+                android:layout_marginLeft="@dimen/dp3"
+                android:imeOptions="actionNext"
+                android:textColor="@color/white"
+                android:inputType="number"
+                style="@style/pin_edittext_style" />
+
+            <com.reverie.customcomponent.RevEditText android:id="@+id/pin_fifth_edittext"
+                android:layout_width="@dimen/otp_edit_text_width"
+                android:textSize="@dimen/heading_text"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp3"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:background="@drawable/textfield_focused"
+                style="@style/pin_edittext_style" />
+
+            <com.reverie.customcomponent.RevEditText android:id="@+id/pin_sixth_edittext"
+                android:layout_width="@dimen/otp_edit_text_width"
+                android:textSize="@dimen/heading_text"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:imeOptions="actionDone"
+                android:background="@drawable/textfield_focused"
+                android:layout_marginLeft="@dimen/dp3"
+                style="@style/pin_edittext_style" />
+        </LinearLayout>
+
+        <com.reverie.customcomponent.RevEditText android:id="@+id/pin_hidden_edittext"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:background="@null"
+            android:inputType="number"
+            android:cursorVisible="false"
+            android:password="true"
+            android:maxLength="6"
+            android:textColor="#00000000"
+           />
+
+    <android.support.v7.widget.CardView
+        android:clickable="true"
+        android:id="@+id/send_card_view"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp30"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="@dimen/dp30"
+        app:contentPadding="@dimen/main_button_padding">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/send"
+            android:textColor="@color/black"
+            android:textSize="@dimen/heading_text" />
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/reset"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp30"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/re_send"
+            android:textColor="@color/white"
+            android:textSize="@dimen/heading_text" />
+
+        <View
+            android:background="@color/white"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/dp2"
+            android:layout_width="match_parent" />
+    </LinearLayout>
+</LinearLayout>
+
+</RelativeLayout>

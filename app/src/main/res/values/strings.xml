@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_id">223293578209386</string>
+    <string name="app_name">नेटपर</string>
+    <string name="back">परत</string>
+    <string name="block">विभाग</string>
+    <string name="choose_language">भाषा निवडा</string>
+    <string name="choose_state">प्रथम राज्य निवडा!</string>
+    <string name="date_of_birth">जन्म</string>
+    <string name="gen">तुम्ही कोण आहात?</string>
+    <string name="district">जिल्हा</string>
+    <string name="female">स्त्री</string>
+    <string name="first_name">नाव</string>
+    <string name="great">महान!</string>
+    <string name="incorrect_number">मोबाइल नंबर योग्य नाही</string>
+    <string name="last_name">आडनाव</string>
+    <string name="maharastra">महाराष्ट्र</string>
+    <string name="male">पुरूष</string>
+    <string name="mobile_number">मोबाइल नंबर</string>
+    <string name="navigation_drawer_close">नेव्हिगेशन ड्रॉवर बंद करा</string>
+    <string name="navigation_drawer_open">नेव्हिगेशन ड्रॉवर उघडा</string>
+    <string name="no_connection">ऑफलाइन</string>
+    <string name="ok">धन्यवाद</string>
+    <string name="otp">येथे ओटीपी लिहा</string>
+    <string name="re_send">पुन्हा ओटीपी पाठवा</string>
+    <string name="sel_state">राज्य</string>
+    <string name="send">पुढे जा</string>
+    <string name="sign_in">साइन इन</string>
+    <string name="sign_up">साइन अप</string>
+    <string name="new_user_signup">नवीन अकाऊंट बनवण्यासाठी साईन अप करा</string>
+    <string name="existing_user_sign_in">विद्यमान वापरकर्ता ? साईन इन</string>
+
+
+    <string name="sorry">क्षमा असावी</string>
+    <string name="sorry1">माफ करा</string>
+
+    <string name="start">प्रारंभ</string>
+    <string name="submit">सबमिट करा</string>
+    <string name="take_a_tour">एक फेरफटका मारा</string>
+    <string name="title_activity_dashboard">डॅशबोर्ड</string>
+    <string name="we_hv_sent_the_otp_nwait_till_we_detect_it_or_you_can_enter_otp">आम्ही तुम्हाला ओटीपी पाठवला \nआहे,तो आम्ही तपासेपर्यंत वाट पाहा\nकिंवा आपला ओटीपी टाइप करा</string>
+    <string name="welcome">नेटपरमध्ये तुमचे स्वागत</string>
+    <string name="enter_otp">येथे ओटीपी लिहा</string>
+
+    <string name="welcome_in_netpar">नेटपरमध्ये तुमचे स्वागत</string>
+    <string name="welcome_in_netpar_subtitle">भारताचा डिजिटल मित्र\nया, नेटपरवर सहभागी व्हा</string>
+
+    <string name="enter_first_name">पहिले नाव आवश्यक आहे!</string>
+    <string name="enter_last_name">कृपया आडनाव आवश्यक आहे!</string>
+    <string name="mobile_number_incorrect_retype_again">आपला मोबाइल नंबर चुकीचा पुन्हा टाईप करा!</string>
+    <string name="mobile_required">मोबाईल क्रमांक टाकावा!</string>
+    <string name="mobile_number_less_than_ten">आपण मोबाईल क्रमांक 10 अंकापेक्षा कमी नोंदवला आहे!</string>
+    <string name="old_number">जुना मोबाइल नंबर</string>
+
+    <string name="mobile_number_already_registered">मोबाईल क्रमांक आधीच नोंदणीकृत आहे!</string>
+    <string name="otp_has_send">OTP पाठविला आहे!</string>
+    <string name="otp_not_match">अवैध ओटीपी!</string>
+
+
+    <array name="city_ques_array">
+        <item>जिल्हा निवडा</item>
+        <item>नंदुरबार</item>
+    </array>
+    <array name="block_ques_array">
+        <item>ब्लॉक निवडा</item>
+        <item>अक्कलकुवा</item>
+        <item>अक्रानी</item>
+    </array>
+
+
+    <array name="city_array">
+        <item>नंदुरबार</item>
+    </array>
+    <array name="block_array">
+        <item>अक्कलकुवा</item>
+        <item>अक्रानी</item>
+    </array>
+    <!--  <array name="city_array">
+        <item>Nandurbar</item>
+    </array>
+
+    <array name="block_array">
+        <item>Akkalkuwa</item>
+        <item>Akrani</item>
+    </array>-->
+
+    <array name="language_array">
+        <item>भाषा निवडा</item>
+        <!--   <item>हिंदी</item>
+        <item>ગુજરાત</item>
+        <item>ਪੰਜਾਬੀ</item>
+        <item>മലയാളം</item>
+        <item>தமிழ்</item>
+        <item>తెలుగు</item>
+        <item>ಹನಿ</item>
+        <item>Odia</item>
+        <item>বাঙালি</item>
+        <item>Assamese</item>-->
+        <item>मराठी</item>
+        <!--<item>English</item>-->
+    </array>
+
+    <!-- <array name="language_array">
+        <item>Select Language</item>
+        <item>Hindi</item>
+        <item>Gujrati</item>
+        <item>Punjabi</item>
+        <item>Malayalam</item>
+        <item>Tamil</item>
+        <item>Telugu</item>
+        <item>Kannad</item>
+        <item>Odia</item>
+        <item>Bengali</item>
+        <item>Assamese</item>
+        <item>Marathi</item>
+        <item>English</item>
+    </array>-->
+    <array name="language_array_contribution">
+        <!--   <item>हिंदी</item>
+        <item>ગુજરાત</item>
+        <item>ਪੰਜਾਬੀ</item>
+        <item>മലയാളം</item>
+        <item>தமிழ்</item>
+        <item>తెలుగు</item>
+        <item>ಹನಿ</item>
+        <item>Odia</item>
+        <item>বাঙালি</item>
+        <item>Assamese</item>-->
+        <item>मराठी</item>
+        <!--<item>English</item>-->
+    </array>
+    <array name="mm">
+        <item>MM</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </array>
+
+    <array name="state_array_lang">
+        <item>@string/sel_state</item>
+        <item>महाराष्ट्र</item>
+    </array>
+    <array name="state_array">
+        <item>महाराष्ट्र</item>
+    </array>
+    <array name="yy">
+        <item>YYYY</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>2000</item>
+        <item>1999</item>
+        <item>1998</item>
+        <item>1997</item>
+        <item>1996</item>
+        <item>1995</item>
+        <item>1994</item>
+        <item>1993</item>
+        <item>1992</item>
+        <item>1991</item>
+        <item>1990</item>
+        <item>1989</item>
+        <item>1988</item>
+        <item>1987</item>
+        <item>1986</item>
+        <item>1985</item>
+    </array>
+
+    <string name="title_activity_home">होम</string>
+
+    <string name="home">होम</string>
+    <string name="my_account">माझं अकाऊंट</string>
+    <string name="sel_cor_dob">योग्य जन्म तारीख निवडा!</string>
+    <string name="what_is_your_block_name">आपला तालुका कोणता?</string>
+    <string name="what_is_your_city_name">आपला जिल्हा कोणता?</string>
+    <string name="what_is_your_state_name">आपले राज्य कोणते?</string>
+    <string name="please_give_answer_of_all_questions">कृपया खालील सुरक्षकतेचे प्रश्नांची उत्तरे नोंद करावी</string>
+    <string name="question">प्रश्न:</string>
+    <string name="please_give_correct_answers">कृपया खालील सुरक्षकतेचे प्रश्नांची उत्तरे नोंद करावी</string>
+    <string name="your_date_of_birth">तुमची जन्मतारीख कोणती?</string>
+    <string name="what_is_your_sex">आपले लिंग ( स्री / पुरुष ) नोंद  करावी?</string>
+    <string name="connect_internet_first">कृपया प्रथम इंटरनेट आणि पुन्ह-प्रारंभ अॅप कनेक्ट करा!</string>
+    <string name="yes">हो. नक्की.</string>
+    <string name="no">नाही. सध्या गरज नाही.</string>
+    <string name="welcome_back">आपले पुन्हा स्वागत आहे</string>
+    <string name="you_have_successfull_sign_in_to_netpar">आपली नोंदणी आता पूर्ण झाली आहे</string>
+    <string name="do_you_want_to_update_your_mobile_no">तुम्हाला तुमचा मोबाईल नंबर अपडेट करायचा आहे का?</string>
+    <string name="we_cant_find_your_account_please_sign_up">आम्ही आपले खाते शोधू शकत नाही\nकृपया साइन अप करा</string>
+    <string name="your_mobile_number_is_not_registered_with_us_kindly_signup_as_a_new_user">तुम्ही दिलेला मोबाईल नंबर आमच्याकडे नोंदविण्यात\nआलेला नाही.कृपया नव्याने साईन अप करा</string>
+    <string name="your_mibile_no_is_incorrect_retype_it_and_try_again">तुम्ही दिलेला मोबाईल नंबर चुकीचा आहे.\nकृपया पुन्हा प्रयत्न करा</string>
+    <string name="recheck_detail">तुम्ही दिलेली माहिती तपासून पाहा.</string>
+    <string name="select_your_state">तुमच्या राज्याची निवड करावी!</string>
+    <string name="select_your_district">जिल्ह्याची निवड करावी!</string>
+    <string name="select_your_block">तालुक्याची निवड करावी!</string>
+    <string name="select_your_date_of_birth">जन्म तारीख नोंद करावी!</string>
+    <string name="select_your_gender">आपले लिंग निवडा</string>
+    <string name="friends">मित्र</string>
+    <string name="article">लेख</string>
+    <string name="cotribution">योगदान</string>
+    <string name="action_search">शोध</string>
+    <string name="action_notification">सूचना</string>
+    <string name="privacy_policy">गोपनीयता धोरण</string>
+    <string name="about_us">नेटपर बद्दल</string>
+    <string name="rate_us">तुम्हाला आवडलं का?</string>
+    <string name="invite">मित्रांना आमंत्रित करा</string>
+    <string name="contribute">योगदान द्या</string>
+    <string name="profile">माझं अकाऊंट</string>
+    <string name="section">विभाग</string>
+    <string name="dd">तारीख</string>
+    <string name="mm">महिना</string>
+    <string name="yyyy">वर्ष</string>
+    <string name="is_this_you">हे तुमचे प्रोफाइल आहे का?</string>
+    <string name="is_yes">अर्थात, माझाच आहे</string>
+    <string name="is_no">नाही, अजिबात नाही</string>
+    <string name="wrong_answer">तुम्ही दिलेली माहिती चुकीची आहे</string>
+    <string name="category_are_not_available_to_this_section">या विभागात श्रेणी उपलब्ध नाही.</string>
+    <string name="sub_category_are_not_available_to_this_category">या श्रेणीमध्ये उप विभाग उपलब्ध नाहीत.</string>
+    <string name="help">मदत</string>
+    <string name="wrong_answer_signup">नवीन अकाऊंट बनवण्यासाठी साईन अप करा.</string>
+    <string name="welcome_male">नमस्कार, नाव भाऊ</string>
+    <string name="welcome_home">नमस्कार</string>
+    <string name="welcome_female">नमस्कार, नाव वहिनी</string>
+    <string name="edit">संपादित करा</string>
+    <string name="logout">लॉग आऊट</string>
+    <string name="view_profile">प्रोफाईल दाखवा</string>
+    <string name="view_save_item">साठवलेले लेख दाखवा</string>
+    <string name="view_download_items">डाऊनलोड केलेल्या गोष्टी दाखवा</string>
+    <string name="friends_on_my_network">नेटपर  वरील माझे मित्र</string>
+    <string name="my_contribution">माझे योगदान</string>
+    <string name="by">लेखक/लेखिका:</string>
+    <string name="like">कडक</string>
+    <string name="comment">कमेंट</string>
+    <string name="save">साठवा</string>
+    <string name="cancel">रद्द करा</string>
+    <string name="download">डाऊनलोड</string>
+    <string name="comments">कमेंट</string>
+    <string name="view_more">पुढे पाहा</string>
+    <string name="views">पाहिले</string>
+    <string name="likes">कडक</string>
+    <string name="simple_likes">कडक</string>
+
+    <string name="commen">टिपण्या लिहिल्या</string>
+    <string name="saves">साठवले आहे</string>
+    <string name="suggested_articles">संबंधित लेख</string>
+    <string name="enter_your_comment_here">तुमची प्रतिक्रिया नोंदवा</string>
+    <string name="type_your_comment">तुमची प्रतिक्रिया लिहा</string>
+    <string name="continue_reading">पुढे वाचत राहा</string>
+
+    <string name="share">इतरांना पाठवा</string>
+    <string name="share_via_text_message">मेसेजवर इतरांना पाठवा</string>
+    <string name="share_on_whatsapp">व्हाट्सएपवर इतरांना पाठवा</string>
+    <string name="share_on_facebook">फेसबुकवर इतरांना पाठवा</string>
+
+    <string name="call_for_help">मदतीसाठी फोन करा</string>
+    <string name="whatsapp_for_help">मदतीसाठी व्हाट्सएप करा</string>
+    <string name="go_to_our_help_section">आमच्या हेल्प सेक्शनला जा</string>
+    <string name="install_whatsapp">अनुप्रयोग whatsapp स्थापित करा!</string>
+    <string name="article_has_saved">साठवले आहे</string>
+    <string name="article_removing_from_list">जतन केलेल्या लेखांमधून लेख काढणे आहे!</string>
+    <string name="item_not_available_for_download">डाउनलोड करण्यासाठी आयटम उपलब्ध नाहीत!</string>
+    <string name="downloading_has_started">डाउनलोड करणे प्रारंभ झाले आहे...</string>
+    <string name="download_failed">डाऊनलोड अयशस्वी!</string>
+    <string name="downloaded">डाऊनलोडेड</string>
+    <string name="see_more">आणखी दाखवा</string>
+    <string name="article_downloaded">डाऊनलोड झालं आहे</string>
+
+    <string name="wrong_state">आपले निवडलेले राज्य जुळले नाही</string>
+    <string name="wrong_dist">आपले निवडलेले जिल्हा जुळले नाही</string>
+    <string name="wrong_block">आपले निवडलेले तालुका जुळले नाही</string>
+    <string name="wrong_dob">आपले निवडलेले जन्म तारीख जुळले नाही</string>
+    <string name="wrong_gender">आपले निवडलेले लिंग जुळले नाही</string>
+
+    <string name="content_authority">conetpar</string>
+    <string name="saved">साठवले आहे</string>
+    <string name="saved_post">साठवलेले लेख</string>
+    <string name="save_contribution">योगदान</string>
+
+    <string name="post_contribution">Post</string>
+    <string name="close_contribution">Close</string>
+
+    <string name="select_section">विभाग निवडा</string>
+    <string name="select_category">प्रकार निवडा</string>
+    <string name="sub_category">उप-प्रकार निवडा</string>
+    <string name="enter_headline">शीर्षक</string>
+    <string name="enter_description">तुमचे वर्णन येथे नमूद करा</string>
+
+    <string name="select_section_msg">विभाग निवडा!</string>
+    <string name="select_category_msg">प्रकार निवडा!</string>
+    <string name="sub_category_msg">उप-प्रकार निवडा!</string>
+    <string name="languag_msg">भाषा निवडा!</string>
+    <string name="enter_headline_msg">शीर्षक प्रविष्ट करा!</string>
+    <string name="enter_description_msg">तुमचे वर्णन येथे नमूद करा!</string>
+    <string name="media_msg">मीडिया फाईल जोडा!</string>
+
+    <array name="prof_option">
+        <item>माझे प्रोफाइल</item>
+        <item>मी साठवलेले लेख दाखवा</item>
+        <item>मी डाऊनलोड केलेल्या गोष्टी दाखवा</item>
+        <item>माझे स्वीकृत योगदान दाखवा</item>
+        <item>नेटपर वरील माझे मित्र</item>
+    </array>
+    <string name="title_activity_dummy_for_exo_player_demo">DummyActivityForExoPlayerDemo</string>
+
+    <string name="existing_user">विद्यमान वापरकर्ता</string>
+    <string name="continue_to_sign_in">साइन इन करणे सुरू ठेवा</string>
+    <string name="do_you_have_a_new_number_update">आपल्याकडे नवीन नंबर आहे? अद्यतन करा</string>
+    <string name="new_user">नवीन वापरकर्ता</string>
+    <string name="recheck">पुन्हा तपासा</string>
+    <string name="new_mobile_number">नवीन मोबाइल नंबर</string>
+    <string name="update">अपटेड</string>
+    <string name="inv">आमंत्रित करा</string>
+
+    <string name="logout_yes">हो</string>
+    <string name="logout_no">नाही</string>
+    <string name="logout_text">आपण लॉग आऊट केल्याची खात्री आहे?</string>
+
+    <string name="thanks_to_contribute">नेटपर मध्ये योगदान धन्यवाद!</string>
+    <string name="thanks">धन्यवाद</string>
+
+
+    <string name="account_type">co.netpar</string>
+    <string name="account_authority">co.netpar.provider</string>
+    <string name="recheck_your_answer">तुम्ही दिलेली माहिती चुकीची आहे</string>
+
+    <string name="are_you_sure">आपण डाउनलोड हटविणे सुनिश्चित आहात?</string>
+
+    <string name="crop__saving">चित्र जतन करत आहे…</string>
+    <string name="crop__wait">कृपया थांबा…</string>
+    <string name="crop__pick_error">कोणतेही प्रतिमा स्रोत उपलब्ध नाहीत</string>
+    <string name="crop__done">पूर्ण झाले</string>
+    <string name="crop__cancel" tools:ignore="ButtonCase">रद्द करा</string>
+    <string name="del_img">आपली खात्री आहे की आपण ही प्रतिमा हटवू इच्छिता?</string>
+    <string name="del_vdo">आपण हा व्हिडिओ हटविण्याची खात्री आहे?</string>
+    <string name="del_audio">आपण हे ऑडिओ हटविण्यास निश्चित आहात?</string>
+    <string name="del_document">आपण कागदजत्र हटविणे सुनिश्चित आहात?</string>
+    <string name="update_profile_image">प्रोफाईल प्रतिमा यशस्वीरित्या अद्यतनित केली आहे!</string>
+    <string name="update_mobile">आपला मोबाइल नंबर अद्यतनित झाला आहे!</string>
+
+    <string name="ref_code">संदर्भ कोड प्रविष्ट करा</string>
+    <string name="download_suggestion">डाऊनलोड केलेल्या माध्यमाच्या डाउनलोड पूर्ण झाल्यावर येथे क्लिक करा</string>
+    <string name="save_suggestion">हा लेख जतन केल्यानंतर आपण जतन आयटम येथे पाहू शकता येथे क्लिक करा</string>
+    <string name="enter_your_comment">आपली टिप्पणी प्रविष्ट करा</string>
+
+    <string name="faq_text">वारंवार विचारले जाणारे प्रश्न</string>
+    <string name="gendar_updated">आपले लिंग अद्यतनित केले आहे!</string>
+    <string name="address_updated">आपला पत्ता सुधारित झाला आहे!</string>
+    <string name="dob_updated">आपली जन्मतारीख अद्यतन झाली आहे!</string>
+
+    <string name="not_any_notification">सूचना उपलब्ध नाहीत!</string>
+    <string name="view_nyour_post">आपली पोस्ट पाहा</string>
+    <string name="continue_nbrowsing">ब्राउझिंग सुरु ठेवा</string>
+    <string name="post_none_more">आणखी एक पोस्ट करा</string>
+
+    <string name="reveri_not_initial">Initializing default keyboard settings...</string>
+    <string name="article_aready_open">लेख आधीपासूनच उघडला आहे.</string>
+    <string name="not_available_article">या उपश्रेणीमध्ये अनुच्छेद उपलब्ध नाहीत</string>
+
+</resources>

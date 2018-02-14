@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main_lay"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/dp5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/content_image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp80"
+                fresco:placeholderImage="@drawable/detail_placeholder"
+                fresco:roundedCornerRadius="@dimen/dp8"
+                fresco:roundTopLeft="true"
+                fresco:roundTopRight="true"
+                fresco:roundBottomLeft="false"
+                fresco:roundBottomRight="false"
+                />
+
+            <View
+                android:id="@+id/bottom_view"
+                android:layout_marginTop="@dimen/dp3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp2"
+                android:background="@drawable/radious_color4"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp2">
+
+                <TextView
+                    android:layout_toLeftOf="@+id/next_image"
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="dummy detail dummy detail dummy detail dummy detail dummy detail"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/contact_list_title"
+                    android:textStyle="bold"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    android:id="@+id/next_image"
+                    android:layout_width="@dimen/small_lf_icon_size"
+                    android:layout_height="@dimen/small_lf_icon_size"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/arrow4" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="3"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:text="dummy detail dummy detail dummy detail dummy detail dummy detail dummy detail dummy detail"
+                android:textColor="@color/black"
+                android:textSize="@dimen/contact_list_des" />
+        </LinearLayout>
+
+</LinearLayout>

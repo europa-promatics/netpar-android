@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">@color/white</color>
+    <color name="colorPrimary">@color/logo</color>
+    <color name="colorPrimaryDark">@color/transparent</color>
+
+    <color name="black">#040404</color>
+    <color name="white">#ffffff</color>
+    <color name="dim_back">#99040404</color>
+    <color name="gray_back">#e8edf1</color>
+
+    <color name="black_text_color">@color/black</color>
+    <color name="dark_black">#000000</color>
+    <color name="dark_logo">#f6a207</color>
+    <color name="dark_yellow">#fea708</color>
+    <color name="light_black">#2b2b2b</color>
+    <color name="light_yellow">#ffcb00</color>
+    <color name="logo">#fecd08</color>
+    <color name="trans_logo">#aafecd08</color>
+
+    <color name="red">#ff0000</color>
+    <color name="shedow_color_">#aaa38304</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="edt_text_color">#ffffff</color>
+    <color name="edt_hint_text_color">@color/white</color>
+
+    <color name="bot_bar_bg_color">#2d2d2d</color>
+    <color name="top_bar_bg_color">#000000</color>
+    <color name="dim_yellow">#70ffcb00</color>
+    <color name="green">#27ae60</color>
+    <color name="drawer_header_line">#f06561</color>
+    <color name="shadow_color">#75000000</color>
+
+    <color name="list_color1_start">#ffc809</color>
+    <color name="list_color1_end">#f89f2e</color>
+    <color name="list_color2">#fe3c3c</color>
+    <color name="list_color3">#d8206a</color>
+    <color name="list_color4">#511b94</color>
+    <color name="list_color5_start">#0cc8b0</color>
+    <color name="list_color5_end">#0aae99</color>
+    <!--Only Used in a view-->
+    <color name="list_color6">#fc9006</color>
+
+    <color name="transparent_black_top">#aa000000</color>
+    <color name="transparent_black_center">#66000000</color>
+
+    <color name="detail_color1">#fe3c3c</color>
+    <color name="detail_color2">#d8206a</color>
+    <color name="detail_color3">#511b94</color>
+    <color name="detail_color4">#f8a02d</color>
+    <color name="detail_blue">#00adef</color>
+    <color name="view_color">#0bbca6</color>
+
+    <color name="line_color">#7e7e7e</color>
+    <color name="comment_color">#C9C9C9</color>
+    <color name="text_color">#444</color>
+    <color name="view_more_color">#9C27B0</color>
+
+    <color name="light_gray">#A1A1A1</color>
+
+    <color name="alert_dim_back">#a0000000</color>
+
+    <color name="selectable_tab">#9c27b0</color>
+    <color name="unsel_selectable_tab">#8a8a8a</color>
+
+
+    <color name="contribution_edt_text_color">#585858</color>
+    <color name="contribution_edt_hint_text_color">@color/light_gray</color>
+    <color name="contribution_background_color">#e4e4e4</color>
+    <color name="contribution_black">#000000</color>
+
+
+
+
+</resources>

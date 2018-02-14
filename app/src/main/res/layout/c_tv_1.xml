@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="@+id/card_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/vertical_categ_height1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/catag_card_redious"
+    android:layout_margin="@dimen/dp2"
+    xmlns:fresco="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/color_lay"
+        android:layout_width="match_parent"
+        android:background="@drawable/catag_back"
+        android:layout_height="match_parent">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/categ_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            fresco:placeholderImage="@drawable/detail_placeholder"
+            fresco:roundedCornerRadius="@dimen/dp10"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/catag1_top_transparent"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/big_title"
+            android:id="@+id/text"
+            android:textColor="@color/white"
+            android:text="News"
+            android:layout_margin="@dimen/dp10"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

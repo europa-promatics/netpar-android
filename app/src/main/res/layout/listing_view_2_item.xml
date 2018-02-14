@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/m_main_lay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp3"
+        android:layout_marginTop="@dimen/dp4"
+        android:background="@drawable/radious_color4" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp2">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/next_image1"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="dummy detail dummy detail dummy detail dummy detail dummy detail"
+            android:textColor="@color/black"
+            android:textSize="@dimen/contact_list_title"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/next_image"
+            android:layout_width="@dimen/small_lf_icon_size"
+            android:layout_height="@dimen/small_lf_icon_size"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow4" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp60"
+        android:layout_marginTop="@dimen/dp5">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/content_image"
+            android:layout_width="@dimen/dp60"
+            android:layout_height="match_parent"
+            fresco:placeholderImage="@drawable/detail_placeholder"
+           />
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lines="3"
+            android:maxLines="3"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp8"
+            android:layout_toRightOf="@+id/content_image"
+            android:text="dummy detail dummy detail dummy detail dummy detail dummy detail dummy detail dummy detail"
+            android:textColor="@color/black"
+            android:textSize="@dimen/contact_list_des" />
+
+    </RelativeLayout>
+
+</LinearLayout>

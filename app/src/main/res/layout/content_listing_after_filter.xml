@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    >
+    <android.support.v7.widget.CardView
+        android:id="@+id/parent_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/gray_back">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dp5"
+        android:layout_marginRight="@dimen/dp5"
+        android:layout_marginTop="@dimen/dp5"
+        android:background="@drawable/solid_white_button"
+        android:fillViewport="true">
+
+       <LinearLayout
+            android:id="@+id/top_lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dp5"
+            android:paddingRight="@dimen/dp5"
+            android:paddingTop="@dimen/dp5">
+
+                <RelativeLayout
+                    android:id="@+id/add_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/listView_top_image_height">
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/main_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        fresco:placeholderImage="@drawable/detail_placeholder"
+                        fresco:roundedCornerRadius="@dimen/dp8" />
+
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/two_corner_main_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="gone"
+                        fresco:placeholderImage="@drawable/detail_placeholder"
+                        fresco:roundBottomLeft="false"
+                        fresco:roundBottomRight="false"
+                        fresco:roundTopLeft="true"
+                        fresco:roundTopRight="true"
+                        fresco:roundedCornerRadius="@dimen/dp8" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/conteent_listing_top_image_back" />
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:maxLines="2"
+                        android:padding="@dimen/dp5"
+                        android:text="dummy detail dummy detail dummy detail dummy detail dummy detail"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/normal_text"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/item_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/solid_white_button"
+                    android:paddingTop="@dimen/dp10" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="@dimen/main_logo_size"
+        android:layout_height="@dimen/main_logo_size"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/main_logo_top_margin"
+        android:src="@drawable/white_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/logo"
+        android:layout_marginBottom="@dimen/dp80"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp10"
+        android:background="@drawable/solid_black"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp10">
+
+        <Spinner
+            android:id="@+id/keypadLangSpinner"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:background="@null"
+            android:overlapAnchor="false"
+          />
+
+        <ImageView
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:onClick="open_languageSpinner"
+            android:src="@drawable/white_down_arrow" />
+    </LinearLayout>
+   </LinearLayout>
+</RelativeLayout>

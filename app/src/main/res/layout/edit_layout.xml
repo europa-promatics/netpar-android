@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/lal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    xmlns:app1="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/profile_back_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        fresco:roundedCornerRadius="@dimen/dp8"
+        />
+
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp5"
+        android:layout_marginRight="@dimen/dp5"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="@dimen/dp80"
+            android:layout_height="@dimen/dp80"
+            android:layout_marginTop="@dimen/dp10"
+            android:layout_gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView"
+                android:layout_height="@dimen/dp80"
+                android:layout_width="@dimen/dp80"
+                android:focusable="true"
+                android:src="@drawable/detail_placeholder"
+                app1:civ_border_width="@dimen/dp1"
+                app1:civ_border_color="@color/white"/>
+
+            <ImageView
+                android:id="@+id/edit_image"
+                android:layout_width="@dimen/dp30"
+                android:layout_height="@dimen/dp30"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/edit_pro"/>
+
+            <ImageView
+                android:id="@+id/delet_image"
+                android:layout_width="@dimen/dp30"
+                android:layout_height="@dimen/dp30"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/delete_pro"/>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="@dimen/dp20"
+                android:layout_height="@dimen/dp20"
+                android:indeterminate="true"
+                android:visibility="gone"
+                android:indeterminateTintMode="src_atop"
+                android:indeterminateTint="@color/dark_logo"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="User Name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/heading_text" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp2"
+        android:layout_marginTop="@dimen/dp10"
+        android:background="@color/light_yellow"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/total_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp5"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/friends"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/dp2"
+            android:layout_height="match_parent"
+            android:background="@color/light_yellow" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/total_lekh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp5"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/article"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/dp2"
+            android:layout_height="match_parent"
+            android:background="@color/light_yellow" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/total_yogdan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp5"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp20" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/cotribution"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dp10"
+            android:paddingRight="@dimen/dp10"
+            android:paddingBottom="@dimen/dp5"
+            android:paddingTop="@dimen/dp5"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <com.reverie.customcomponent.RevEditText
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/prof_phone"
+                    android:drawablePadding="@dimen/dp5"
+                    android:inputType="phone"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/editMobile"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dp5"
+                    android:src="@drawable/edit"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:id="@+id/sex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/prof_gen"
+                    android:drawablePadding="@dimen/dp5"
+                    android:textColor="@color/white" />
+
+                <RadioGroup
+                    android:id="@+id/gen_group"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:layout_toLeftOf="@+id/editsex"
+                    android:layout_marginTop="@dimen/dp5">
+
+                    <RadioButton
+                        android:button="@drawable/redio_button_selecter"
+                        android:id="@+id/male"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:layout_width="wrap_content"
+                        android:text="@string/male"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/heading_text" />
+
+                    <RadioButton
+                        android:button="@drawable/redio_button_selecter"
+                        android:id="@+id/female"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:layout_width="wrap_content"
+                        android:text="@string/female"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/heading_text" />
+                </RadioGroup>
+
+                <ImageView
+                    android:id="@+id/editsex"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dp5"
+                    android:src="@drawable/edit"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/prof_loc"
+                    android:drawablePadding="@dimen/dp5"
+                    android:textColor="@color/white" />
+
+                <LinearLayout
+                    android:id="@+id/address_lay"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:drawableLeft="@drawable/prof_loc"
+                    android:layout_toLeftOf="@+id/editaddress"
+                    android:visibility="gone"
+                    android:weightSum="3.0">
+
+                    <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent">
+
+                            <AutoCompleteTextView
+                                android:hint="@string/sel_state"
+                                android:id="@+id/spinner_state"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:popupBackground="@color/white"
+                                android:textColor="@color/white"
+                                android:textColorHint="@color/white"/>
+
+                            <ImageView
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_height="@dimen/dp20"
+                                android:layout_marginRight="@dimen/dp5"
+                                android:layout_width="@dimen/dp20"
+                                android:src="@drawable/yello_dropdown" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp4"
+                        android:layout_marginRight="@dimen/dp2"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent">
+
+                            <AutoCompleteTextView
+                                android:hint="@string/district"
+                                android:id="@+id/district"                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:dropDownHeight="@dimen/drop_down_height"
+                                android:popupBackground="@color/white"
+                                android:textColor="@color/white"
+                                android:textColorHint="@color/white" />
+
+                            <ImageView
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_height="@dimen/dp20"
+                                android:layout_marginRight="@dimen/dp5"
+                                android:layout_width="@dimen/dp20"
+                                android:src="@drawable/yello_dropdown" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp2"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical">
+
+
+                        <RelativeLayout
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent">
+
+                            <AutoCompleteTextView
+                                android:hint="@string/block"
+                                android:id="@+id/input_block"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:dropDownHeight="@dimen/drop_down_height"
+                                android:popupBackground="@color/white"
+                                android:textColorHint="@color/white"
+                                android:textColor="@color/white" />
+
+                            <ImageView
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_height="@dimen/dp20"
+                                android:layout_marginRight="@dimen/dp5"
+                                android:layout_width="@dimen/dp20"
+                                android:src="@drawable/yello_dropdown" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/editaddress"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dp5"
+                    android:src="@drawable/edit"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+                <EditText
+                    android:id="@+id/dob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/profile_cal"
+                    android:drawablePadding="@dimen/dp5"
+                    android:textColor="@color/white" />
+
+                <LinearLayout
+                    android:id="@+id/edit_dob_lay"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:drawableLeft="@drawable/prof_loc"
+                    android:visibility="gone"
+                    android:layout_toLeftOf="@+id/editdob"
+                    android:weightSum="3.0">
+
+                    <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent">
+
+                            <AutoCompleteTextView
+                                android:hint="@string/dd"
+                                android:id="@+id/ddd"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:dropDownHeight="@dimen/drop_down_height"
+                                android:popupBackground="@color/white"
+                                android:textColor="@color/white"
+                                android:textColorHint="@color/white"/>
+
+                            <ImageView
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_height="@dimen/dp20"
+                                android:layout_marginRight="@dimen/dp5"
+                                android:layout_width="@dimen/dp20"
+                                android:src="@drawable/yello_dropdown" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp4"
+                        android:layout_marginRight="@dimen/dp2"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent">
+
+                            <AutoCompleteTextView
+                                android:hint="@string/mm"
+                                android:id="@+id/mmm"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:dropDownHeight="@dimen/drop_down_height"
+                                android:popupBackground="@color/white"
+                                android:textColor="@color/white"
+                                android:textColorHint="@color/white" />
+
+                            <ImageView
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_height="@dimen/dp20"
+                                android:layout_marginRight="@dimen/dp5"
+                                android:layout_width="@dimen/dp20"
+                                android:src="@drawable/yello_dropdown" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp2"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical">
+
+
+                        <RelativeLayout
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent">
+
+                            <AutoCompleteTextView
+                                android:hint="@string/yyyy"
+                                android:id="@+id/yyy"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:dropDownHeight="@dimen/drop_down_height"
+                                android:popupBackground="@color/white"
+                                android:textColorHint="@color/white"
+                                android:textColor="@color/white" />
+
+                            <ImageView
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_height="@dimen/dp20"
+                                android:layout_marginRight="@dimen/dp5"
+                                android:layout_width="@dimen/dp20"
+                                android:src="@drawable/yello_dropdown" />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/editdob"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dp5"
+                    android:src="@drawable/edit"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+</LinearLayout>
+</FrameLayout>

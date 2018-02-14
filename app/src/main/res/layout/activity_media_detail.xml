@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_back"
+    >
+    <include layout="@layout/toolbar"/>
+
+    <RelativeLayout
+        android:id="@+id/video_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <SurfaceView
+            android:id="@+id/video_Surface"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <Button
+            android:id="@+id/play_button"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:onClick="doStartStop"
+            android:layout_alignParentBottom="true"
+            android:text="Start/Stop" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/image_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+       >
+
+      <ImageView
+          android:id="@+id/image_view"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          />
+
+    </RelativeLayout>
+</LinearLayout>

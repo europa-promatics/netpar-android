@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/dp5"
+    android:paddingTop="@dimen/dp10"
+    android:paddingBottom="@dimen/dp10"
+    android:paddingLeft="@dimen/dp50"
+    android:paddingRight="@dimen/dp50"
+    android:background="@color/alert_dim_back">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/normal_text"
+        android:textColor="@color/white"
+        android:gravity="center"
+        />
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progressTint="@android:color/white"
+        android:thumbTint="@color/logo"
+        android:visibility="gone"
+        android:layout_centerInParent="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dp5"
+        android:padding="@dimen/dp5"
+        >
+
+        <ImageView
+            android:id="@+id/play_button"
+            android:layout_width="@dimen/bottom_small_icon"
+            android:layout_height="@dimen/bottom_small_icon"
+            android:src="@drawable/play"
+           />
+
+        <ImageView
+            android:id="@+id/pause_button"
+            android:layout_width="@dimen/bottom_small_icon"
+            android:layout_height="@dimen/bottom_small_icon"
+            android:src="@drawable/pause"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/stop_button"
+            android:layout_width="@dimen/bottom_small_icon"
+            android:layout_height="@dimen/bottom_small_icon"
+            android:src="@drawable/stop"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+</LinearLayout>

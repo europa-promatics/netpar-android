@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.netpar.Home"
+    android:background="@color/gray_back">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            >
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/top_bar_bg_color"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/netpar_text_logo"/>
+
+            <ImageView
+                android:id="@+id/back_icon"
+                android:layout_width="@dimen/dp50"
+                android:layout_height="@dimen/icon_size"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_centerVertical="true"
+                android:src="@drawable/back_return"
+                android:scaleType="fitStart"
+                />
+
+            <TextView
+                android:id="@+id/tol_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/back_icon"
+                android:layout_centerVertical="true"
+                android:textColor="@color/dark_logo"
+                android:text="@string/help"
+                android:visibility="gone"
+                android:textSize="@dimen/normal_text"
+                />
+
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:orientation="vertical">
+
+        <ExpandableListView
+            android:id="@+id/faq_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:groupIndicator="@null"
+           />
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+
+

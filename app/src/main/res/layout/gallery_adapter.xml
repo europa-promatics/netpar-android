@@ -1,0 +1,33 @@
+<RelativeLayout
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/content_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp100"
+        fresco:placeholderImage="@drawable/detail_placeholder"
+        />
+
+
+    <ImageView
+        android:id="@+id/play_button_cl"
+        android:layout_width="@dimen/dp25"
+        android:layout_height="@dimen/dp25"
+        android:src="@drawable/play"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        />
+
+    <ImageView
+        android:id="@+id/del_download"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/dp5"
+        android:src="@drawable/delet"/>
+
+</RelativeLayout>

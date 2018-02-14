@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_redious_back"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:id="@+id/save_click"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/saved_post_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/dp10"
+                android:text="@string/saved_post"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normal_text" />
+
+            <View
+                android:id="@+id/saved_post_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp1"
+                android:layout_alignParentBottom="true"
+                android:background="@color/light_gray" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/contribute_click"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/contribution_post_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/dp10"
+                android:text="@string/save_contribution"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normal_text" />
+
+            <View
+                android:id="@+id/saved_contribution_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp1"
+                android:layout_alignParentBottom="true"
+                android:background="@color/light_gray" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/savedData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/myPostData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        android:visibility="gone"
+        android:background="@color/light_gray" />
+
+    <LinearLayout
+        android:id="@+id/see_more_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dp5"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp5"
+            android:text="@string/see_more"
+            android:textColor="@color/unsel_selectable_tab"
+            android:textSize="@dimen/small_text" />
+
+        <ImageView
+            android:layout_width="@dimen/small_text"
+            android:layout_height="@dimen/small_text"
+            android:src="@drawable/next_arrow_gray" />
+
+    </LinearLayout>
+</LinearLayout>
+

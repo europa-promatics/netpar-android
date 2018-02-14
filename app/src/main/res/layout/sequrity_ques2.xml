@@ -1,0 +1,207 @@
+<?xml version="2.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dp20"
+    android:paddingLeft="@dimen/dp20"
+    android:paddingRight="@dimen/dp20"
+    android:paddingBottom="@dimen/dp30"
+    android:background="@drawable/alert_back"
+   >
+
+    <TextView
+        android:text="@string/please_give_correct_answers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="@dimen/normal_text"
+        android:textColor="@color/black_text_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp10">
+
+        <TextView
+            android:text="@string/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textSize="@dimen/normal_text"
+            android:textColor="@color/black_text_color"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:text="@string/your_date_of_birth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="@dimen/normal_text"
+            android:textColor="@color/black_text_color"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3.0">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <AutoCompleteTextView
+                    android:hint="@string/dd"
+                    android:id="@+id/ddd"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:dropDownHeight="@dimen/drop_down_height"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"/>
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_height="@dimen/dp20"
+                    android:layout_marginRight="@dimen/dp5"
+                    android:layout_width="@dimen/dp20"
+                    android:src="@drawable/yello_dropdown" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp5"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <AutoCompleteTextView
+                    android:hint="@string/mm"
+                    android:id="@+id/mmm"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:dropDownHeight="@dimen/drop_down_height"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black" />
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_height="@dimen/dp20"
+                    android:layout_marginRight="@dimen/dp5"
+                    android:layout_width="@dimen/dp20"
+                    android:src="@drawable/yello_dropdown" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp5"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <AutoCompleteTextView
+                    android:hint="@string/yyyy"
+                    android:id="@+id/yyy"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:dropDownHeight="@dimen/drop_down_height"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_height="@dimen/dp20"
+                    android:layout_marginRight="@dimen/dp5"
+                    android:layout_width="@dimen/dp20"
+                    android:src="@drawable/yello_dropdown" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp5">
+
+        <TextView
+            android:text="@string/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textColor="@color/black_text_color"
+            android:textSize="@dimen/normal_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="@string/what_is_your_sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textColor="@color/black_text_color"
+            android:textSize="@dimen/normal_text"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/gen_group"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp5">
+
+        <RadioButton
+            android:button="@drawable/redio_button_selecter"
+            android:id="@+id/male"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_width="wrap_content"
+            android:text="@string/male"
+            android:textColor="@color/black"
+            android:textSize="@dimen/heading_text" />
+
+        <RadioButton
+            android:button="@drawable/redio_button_selecter"
+            android:id="@+id/female"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_width="wrap_content"
+            android:text="@string/female"
+            android:textColor="@color/black"
+            android:textSize="@dimen/heading_text" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp40"
+        android:background="@drawable/button_radious"
+        android:layout_marginTop="@dimen/dp20"
+        android:text="@string/submit"
+        android:textSize="@dimen/normal_text"
+        android:textColor="@color/black_text_color"/>
+</LinearLayout>

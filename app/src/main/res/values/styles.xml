@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/trans_logo</item>
+
+        <item name="colorControlNormal">@color/white</item><!--Use TO set color of bottoml ine-->
+        <item name="colorControlActivated">@color/logo</item><!--Use to set color on active hint-->
+        <item name="colorControlHighlight">@color/logo</item>
+
+        <item name="android:dropDownListViewStyle">@style/MyListViewStyle</item>
+<!--
+        <item name="android:typeface">monospace</item>
+-->
+    </style>
+
+    <style name="custom_alert_dialog">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="pin_edittext_style">
+        <item name="android:gravity">center</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textSize">@dimen/heading_text</item>
+        <item name="android:focusableInTouchMode">true</item>
+
+        <!--
+               <item name="android:focusable">false</item>
+               <item name="android:minEms">2</item>
+        -->
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomSpinnerTheme">
+        <item name="android:background">@drawable/spinner_arrow</item>
+    </style>
+
+
+    <style name="DatePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="EditText.Contribution" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/contribution_edt_text_color</item>
+        <item name="android:textColorHint">@color/contribution_edt_hint_text_color</item>
+        <item name="colorAccent">@color/contribution_black</item>
+        <item name="colorControlNormal">@color/contribution_black</item>
+        <item name="colorControlActivated">@color/contribution_black</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+    </style>
+
+    <style name="Autocomplete">
+        <item name="android:textColor">@color/contribution_edt_text_color</item>
+        <item name="android:textColorHint">@color/contribution_edt_hint_text_color</item>
+        <item name="colorControlNormal">@color/contribution_black</item>
+        <item name="colorControlActivated">@color/contribution_black</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+    </style>
+
+
+    <style name="login_option_alert_dialog">
+       <!-- <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>-->
+       <!-- <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="MyListViewStyle" parent="@android:style/Widget.ListView">
+
+        <item name="android:divider">#ffffff</item>
+         <item name="android:dividerHeight">1px</item>
+        <!--<item name="android:scrollbarTrackVertical">@color/gray_back</item>-->
+        <item name="android:scrollbarThumbVertical">@color/black</item>
+    </style>
+</resources>

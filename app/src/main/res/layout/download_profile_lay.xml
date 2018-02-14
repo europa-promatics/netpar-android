@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:id="@+id/download_lay1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:layout_margin="@dimen/dp2">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/download_image1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/download_image_height"
+                fresco:placeholderImage="@drawable/detail_placeholder"
+                fresco:roundedCornerRadius="@dimen/dp8"
+                />
+
+            <ImageView
+                android:id="@+id/del_download_1"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/dp5"
+                android:src="@drawable/delet"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/download_lay2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:layout_margin="@dimen/dp2">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/download_image2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/download_image_height"
+                fresco:placeholderImage="@drawable/detail_placeholder"
+                fresco:roundedCornerRadius="@dimen/dp8"
+                />
+
+            <ImageView
+                android:id="@+id/del_download_2"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/dp5"
+                android:src="@drawable/delet"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <RelativeLayout
+            android:id="@+id/download_lay3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:layout_margin="@dimen/dp2">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/download_image3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/download_image_height"
+                fresco:placeholderImage="@drawable/detail_placeholder"
+                fresco:roundedCornerRadius="@dimen/dp8"
+                />
+
+            <ImageView
+                android:id="@+id/del_download_3"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/dp5"
+                android:src="@drawable/delet"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/download_lay4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:layout_margin="@dimen/dp2">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/download_image4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/download_image_height"
+                fresco:placeholderImage="@drawable/detail_placeholder"
+                fresco:roundedCornerRadius="@dimen/dp8"
+                />
+            <ImageView
+                android:id="@+id/del_download_4"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/dp5"
+                android:src="@drawable/delet"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/download_lay5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:layout_margin="@dimen/dp2">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/download_image5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/download_image_height"
+                fresco:placeholderImage="@drawable/detail_placeholder"
+                fresco:roundedCornerRadius="@dimen/dp8"
+                />
+
+            <ImageView
+                android:id="@+id/del_download_5"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/dp5"
+                android:src="@drawable/delet"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>
